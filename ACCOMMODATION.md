@@ -14,17 +14,21 @@ Prices below are published reference rates found during research, not quotes for
 
 ## Night map
 
-| Check-in | Check-out | Nights | Base | Preferred candidate | Backup |
+Prices in parentheses are **two single-use rooms / one shared room**, expressed as the total for two travellers **per night**. `From` means a public starting rate rather than an October quote; `quote` means no comparable public rate was found. For Catania, this comparison describes the two cyclists before the guest arrangement changes on 13 October.
+
+| Check-in | Check-out | Nights | Base | Preferred candidate (singles/shared) | Backup (singles/shared) |
 |---|---|---:|---|---|---|
-| 3 Oct | 5 Oct | 2 | Modica | Modica Boutique Hotel | FerroHotel |
-| 5 Oct | 6 Oct | 1 | Palermo | B&B Ai Vicerè | B&B Piazza Marina |
-| 6 Oct | 7 Oct | 1 | Gibellina | Mille e Una Notte | Elimi Home Apartments |
-| 7 Oct | 8 Oct | 1 | Sambuca di Sicilia | Rinaldo Holiday Home | Don Giovanni Hotel |
-| 8 Oct | 9 Oct | 1 | Santo Stefano Quisquina | Casa Quisquina | da Rosetta |
-| 9 Oct | 10 Oct | 1 | Montedoro | Albergo Diffuso Montedoro | Residence I Pianeti / Case Petix |
-| 10 Oct | 11 Oct | 1 | Enna | B&B del Centro | B&B Proserpina |
-| 11 Oct | 12 Oct | 1 | Regalbuto | Casa Turistica Santa Rosalia | La Dolce Vita |
-| 12 Oct | 17 Oct | 5 | Catania | Centrum Hotel | Urban Pop B&B |
+| 3 Oct | 5 Oct | 2 | Modica | Modica Boutique Hotel (`quote / quote`) | FerroHotel (`from €120 / from €60`) |
+| 5 Oct | 6 Oct | 1 | Palermo | B&B Ai Vicerè (`quote / quote`) | B&B Piazza Marina (`quote / quote`) |
+| 6 Oct | 7 Oct | 1 | Gibellina | Mille e Una Notte (`€110 / €69`) | Elimi Home Apartments (`€118 / €75`) |
+| 7 Oct | 8 Oct | 1 | Sambuca di Sicilia | Rinaldo Holiday Home (`€70 / €55`) | Don Giovanni Hotel (`€140 / €90`) |
+| 8 Oct | 9 Oct | 1 | Santo Stefano Quisquina | Casa Quisquina (`€100 / €60`) | da Rosetta (`from €140 / from €70`) |
+| 9 Oct | 10 Oct | 1 | Montedoro | Albergo Diffuso Montedoro (`€76 / €45`) | Residence I Pianeti / Case Petix (`from €68 / from €34`) |
+| 10 Oct | 11 Oct | 1 | Enna | B&B del Centro (`€80 / €60*`) | B&B Proserpina (`€80 / €60`) |
+| 11 Oct | 12 Oct | 1 | Regalbuto | Casa Turistica Santa Rosalia (`€60 / €55`) | La Dolce Vita (`quote / quote`) |
+| 12 Oct | 17 Oct | 5 | Catania | Centrum Hotel (`from €180 / from €130`) | Urban Pop B&B (`€90 / €55`) |
+
+`*` B&B del Centro's source labels the €60 double/twin rate inconsistently as both a room rate and a per-person rate; obtain the total in writing before comparing it.
 
 ## 3–5 October — Modica, two nights
 
