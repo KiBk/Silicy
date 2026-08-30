@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#231a15">
+  <meta name="description" content="A two-part Sicily plan: cycling the Sicily Divide with Fausto and exploring Catania together, 3–17 October 2026.">
+  <title>Sicily · Divide & Together</title>
+  <link rel="stylesheet" href="/leaflet.css?v=1.9.4">
+  <link rel="stylesheet" href="/styles.css?v=traccar-1">
+  <script defer src="/leaflet.js?v=1.9.4"></script>
+  <script defer src="/route-data.js?v=routes-2"></script>
+  <script defer src="/dotwatcher-config.js?v=traccar-1"></script>
+  <script defer src="/app.js?v=traccar-1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to the plan</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Sicily trip home"><span class="brand-sun" aria-hidden="true">☀</span><span>SICILY · 2026</span></a>
+    <div class="phase-switch" role="group" aria-label="Trip chapter">
+      <button type="button" class="active" data-phase="ride" aria-pressed="true"><span>01</span><b data-phase-label="ride">Sicily Divide</b></button>
+      <button type="button" data-phase="city" aria-pressed="false"><span>02</span><b data-phase-label="city">Catania together</b></button>
+    </div>
+    <div class="header-actions">
+      <nav class="language-switch" aria-label="Language"><a href="/" data-lang="en">EN</a><a href="/ru" data-lang="ru">RU</a><a href="/it" data-lang="it">IT</a></nav>
+      <button class="print-button" type="button" data-print data-i18n="print">Print</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" data-theme="ride">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-hero-kicker>03–13 OCT · KIRILL + FAUSTO</p>
+        <h1 data-hero-title>Across the island.<br><em>Back to Catania.</em></h1>
+        <p class="hero-lede" data-hero-lede>Kirill and Fausto start in Modica, ride Fausto’s track to Catania, take Monday’s bike-friendly train to Palermo, then cross the island together.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#route-map" data-hero-action>See the real route</a>
+          <a class="button ghost" href="https://sicilydivide.it/tappe-e-traccia-sicily-divide/" target="_blank" rel="noreferrer" data-official-link>Official track ↗</a>
+        </div>
+      </div>
+      <aside class="hero-stats" aria-label="Selected chapter summary">
+        <div><span data-stat-label-1>Distance</span><strong data-stat-value-1>≈ 637 <small>km</small></strong></div>
+        <div><span data-stat-label-2>Climbing</span><strong data-stat-value-2>≈ 13.6k <small>m+</small></strong></div>
+        <div><span data-stat-label-3>Ride days</span><strong data-stat-value-3>9 <small>days</small></strong></div>
+      </aside>
+    </section>
+
+    <section class="section tracker-section" data-tracker-section>
+      <div class="section-heading tracker-heading">
+        <div><p class="eyebrow" data-tracker-kicker>PALERMO → CATANIA · DOTWATCHER</p><h2 data-tracker-title>Follow Kirill and Fausto.</h2></div>
+        <p data-tracker-copy>The public feed opens on 3 October and shows rider positions with a five-minute safety delay.</p>
+      </div>
+      <div class="tracker-focus">
+        <div class="tracker-map-shell"><div id="tracker-map" role="application" aria-label="Kirill and Fausto dotwatcher map"></div><div class="tracker-caption" data-tracker-caption>Official Sicily Divide · Palermo start · Catania finish</div></div>
+        <aside class="tracker-panel" data-tracker-panel aria-live="polite"></aside>
+      </div>
+    </section>
+
+    <section class="handoff-band" aria-label="Trip handoff">
+      <div><span>03 OCT · 17:00</span><b>Kirill + Fausto arrive in Catania</b></div>
+      <i aria-hidden="true"></i>
+      <div><span>06 OCT</span><b>Start together in Palermo</b></div>
+      <i aria-hidden="true"></i>
+      <div><span>12 OCT</span><b>Finish together in Catania</b></div>
+    </section>
+
+    <section class="section map-section" id="route-map">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-map-kicker>PRESS A DAY · SEE ITS REAL LINE</p><h2 data-map-title>Every stage has a story</h2></div>
+        <p data-map-copy>Select a day to isolate its route, useful stops, overnight base and the history under your wheels. Fausto’s uploaded track and the official Sicily Divide GPX are preserved separately.</p>
+      </div>
+      <div class="stage-story" data-stage-story>
+        <div class="stage-picker" role="tablist" aria-label="Cycling stages" data-stage-tabs></div>
+      </div>
+      <div class="stage-focus">
+        <div class="map-shell">
+          <div id="map" role="application" aria-label="Interactive Sicily Divide route map"></div>
+          <div class="map-caption">
+            <p data-map-caption><span>Selected day</span>Sunday warm-up · Modica, Scicli and the coast</p>
+            <a data-map-link href="https://www.google.com/maps/dir/?api=1&amp;origin=Modica%2C%20Italy&amp;destination=Modica%2C%20Italy&amp;travelmode=bicycling&amp;waypoints=Scicli%2C%20Italy%7CSampieri%2C%20Italy" target="_blank" rel="noreferrer">Open suggested outline ↗</a>
+          </div>
+        </div>
+        <article class="stage-detail" data-stage-detail aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section class="section schedule-section" id="schedule">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-schedule-kicker>03–13 OCT · THE NEW RHYTHM</p><h2 data-schedule-title>Modica first, rest on the 13th</h2></div>
+        <p data-schedule-copy>The Monday train is the hinge: finish Fausto’s GPX at Catania Centrale, travel to Palermo that evening, and begin the seven-day Divide on Tuesday.</p>
+      </div>
+      <div class="stage-list" data-schedule-list></div>
+    </section>
+
+    <section class="section logistics-section">
+      <div class="logistics-lead">
+        <p class="eyebrow" data-logistics-kicker>BEFORE THE FLIGHT</p>
+        <h2 data-logistics-title>Five bookings unlock the route</h2>
+        <p data-logistics-copy>The route itself fits. The vulnerable parts are bike handoffs and moving two assembled bikes from Catania to Palermo.</p>
+      </div>
+      <ol class="action-list" data-action-list></ol>
+    </section>
+
+    <section class="section sources-section">
+      <div><p class="eyebrow" data-i18n="refsKicker">PRIMARY REFERENCES</p><h2 data-i18n="refsTitle">Keep the plan fresh.</h2></div>
+      <div class="source-links">
+        <a href="https://sicilydivide.it/tappe-e-traccia-sicily-divide/" target="_blank" rel="noreferrer"><b>Sicily Divide</b><span>Stages + current GPX ↗</span></a>
+        <a href="https://www.trenitalia.com/it/regionale/sicilia/informazioni-utili-sicilia.html" target="_blank" rel="noreferrer"><b>Trenitalia Sicilia</b><span>Bike carriage policy ↗</span></a>
+        <a href="https://prm.rfi.it/qo_prm/QO_Partenze_SiPMR.aspx?Id=959&amp;alle=23.59&amp;dalle=17.32" target="_blank" rel="noreferrer"><b>RFI departures</b><span>Catania live board ↗</span></a>
+        <a href="/modica-catania-fausto.gpx" download><b>Fausto’s GPX</b><span>Original uploaded track ↓</span></a>
+        <a href="https://turismo.comune.catania.it/scoprire-catania/" target="_blank" rel="noreferrer"><b>Catania tourism</b><span>Official city guide ↗</span></a>
+        <a href="https://www.italia.it/en/sicily/catania" target="_blank" rel="noreferrer"><b>Italia.it</b><span>Catania + Etna ↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-sun" aria-hidden="true">☀</span><span>SICILY · 2026</span></div>
+    <p data-i18n="footer">Planning version · 22 July 2026 · Official route data remains authoritative.</p>
+    <a href="#top" data-i18n="backTop">Back to top ↑</a>
+  </footer>
+</body>
+</html>
