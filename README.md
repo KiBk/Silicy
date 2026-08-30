@@ -7,6 +7,7 @@ The current public website is [sicily.apps.kibk.net](https://sicily.apps.kibk.ne
 ## Start here
 
 - [`PLAN.md`](PLAN.md) — day-by-day itinerary and the reasoning behind it
+- [`ACCOMMODATION.md`](ACCOMMODATION.md) — two researched stay options for every overnight base
 - [`CHECKLIST.md`](CHECKLIST.md) — decisions, bookings, owners, and deadlines
 - [`RESEARCH.md`](RESEARCH.md) — source links, route notes, and facts to reconfirm
 - [`website/README.md`](website/README.md) — preview and validate the website locally
