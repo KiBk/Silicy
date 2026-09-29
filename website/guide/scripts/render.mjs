@@ -109,17 +109,17 @@ const stageButtons = stages.map(s => `<button type="button" class="stage-choice"
 const stagePanels = stages.map(s => {
   const paragraphs = s.text.split(/\n\s*\n/);
   const rendered = paragraphs.map(p => {
-    const type = /^(Date|Distance|Climbing): /.test(p) ? 'stage-fact' : /^Stay: /.test(p) ? 'stage-stay' : /^Address: /.test(p) ? 'stage-address' : /^\[Finish \/ /.test(p) ? 'finish-link' : /^\[Fausto/.test(p) ? 'course-link' : /^\[/.test(p) ? 'stop-link' : 'stage-note';
+    const type = /^(Date|Distance|Climbing): /.test(p) ? 'stage-fact' : /^Stay: /.test(p) ? 'stage-stay' : /^Address: /.test(p) ? 'stage-address' : /^\[Finish \/ /.test(p) ? 'finish-link' : /^\[Garmin/.test(p) ? 'course-link' : /^\[/.test(p) ? 'stop-link' : 'stage-note';
     return `<div class="${type}">${renderMarkdown(p)}</div>`;
   }).join('');
   return `<article class="stage-panel" id="stage-${s.number}" data-stage-panel="${s.number}" hidden aria-labelledby="stage-heading-${s.number}"><p class="section-kicker">Stage ${String(s.number).padStart(2,'0')}</p><h3 id="stage-heading-${s.number}">${escapeHtml(s.title)}</h3>${rendered}<p class="track-note" data-track-note="${s.number}"></p><a class="gpx-download" data-gpx="${s.number}" hidden download>Download GPX ↓</a></article>`;
 }).join('');
 const explorerHtml = `<section class="route-explorer" id="${stageSection.id}" aria-labelledby="explorer-title">
-  <div class="explorer-heading"><h2 id="explorer-title">${escapeHtml(stageSection.title)}</h2><p>Select a day. See the route. Keep the next stop handy.</p></div>
+  <div class="explorer-heading"><h2 id="explorer-title">${escapeHtml(stageSection.title)}</h2><p>Select a stage for its map and stops.</p></div>
   <div class="explorer-controls"><button type="button" id="overview" aria-pressed="true">All stages</button><button type="button" id="replay">↻ Replay route</button><label class="motion-control"><input id="motion" type="checkbox" checked> Animation</label><p id="map-status" role="status">${ready} / 8 exact tracks imported</p></div>
   <label class="mobile-stage">Choose a stage<select id="stage-select"><option value="0">All stages</option>${stages.map(s=>`<option value="${s.number}">${String(s.number).padStart(2,'0')} · ${escapeHtml(s.title)}</option>`).join('')}</select></label>
   <div class="explorer-grid"><div class="map-frame"><div id="stage-map" aria-label="Map of the selected cycling stage"></div><div class="map-label"><span class="map-label-dot"></span><span id="map-caption">Fausto's courses · 5–12 October</span></div><div id="map-message" class="map-message" hidden></div><div class="map-compass" aria-hidden="true">N<br>↑</div></div>
-  <aside class="stage-details" aria-label="Selected stage information"><div id="overview-panel"><p class="section-kicker">The journey</p><h3>A new horizon.<br>Every morning.</h3><p>Palermo to Catania, through the heart of Sicily. Then the long ride back to Modica.</p><div class="overview-stats"><div><strong>${stages.reduce((sum,s)=>sum+parseFloat(s.distance),0).toFixed(2)}</strong><span>kilometres</span></div><div><strong>${stages.reduce((sum,s)=>sum+parseInt(s.climbing.replaceAll(',','')),0).toLocaleString('en')}</strong><span>metres climbing</span></div></div><p>Choose a numbered stage below for its hotel, address, map links and course.</p><p class="overview-warning">Only imported GPX tracks are drawn. Missing courses show town markers, never a guessed path.</p><a class="text-link" href="#train-and-pass-pickup">Monday's train & pass pickup ↗</a></div>${stagePanels}</aside></div>
+  <aside class="stage-details" aria-label="Selected stage information"><div id="overview-panel"><p class="section-kicker">5–12 October</p><h3>Palermo → Catania<br>→ Modica</h3><div class="overview-stats"><div><strong>${stages.reduce((sum,s)=>sum+parseFloat(s.distance),0).toFixed(2)}</strong><span>kilometres</span></div><div><strong>${stages.reduce((sum,s)=>sum+parseInt(s.climbing.replaceAll(',','')),0).toLocaleString('en')}</strong><span>metres climbing</span></div></div><p>Six stays booked. Catania still to book.</p><p class="overview-warning">${ready}/8 exact GPX tracks imported. Other maps: town markers only.</p><a class="text-link" href="#train-and-pass-pickup">Monday's train & pass pickup ↗</a></div>${stagePanels}</aside></div>
   <nav class="stage-rail" aria-label="Choose cycling stage">${stageButtons}</nav>
   <div class="stage-navigation"><button type="button" id="previous">← Previous</button><p id="selection-summary" aria-live="polite">Choose one of the eight stages</p><button type="button" id="next">Next →</button></div>
   <noscript><p>Enable JavaScript for the stage map. All stage details follow.</p><article class="markdown-body">${renderMarkdown(stageSection.markdown)}</article></noscript>
@@ -166,17 +166,17 @@ const page = `<!doctype html>
     <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu"><span>Menu</span><i aria-hidden="true"></i></button>
   </header>
   <div class="site-menu" id="site-menu" data-site-menu hidden>
-    <div class="menu-panel"><p>Explore the plan</p><nav aria-label="All sections">${menuNav}</nav><div class="menu-tools"><a href="source.md">Source Markdown</a><button type="button" data-share>Share</button><button type="button" data-print>Print</button></div></div>
+    <div class="menu-panel"><nav aria-label="All sections">${menuNav}</nav><div class="menu-tools"><button type="button" data-share>Share</button><button type="button" data-print>Print</button></div></div>
   </div>
   <main id="top">
     <section class="hero">
       <div class="hero-copy"><p class="eyebrow">${escapeHtml(eyebrow)}</p><h1>${escapeHtml(title).replace(', together.', ',<br> <em>together.</em>')}</h1></div><div class="hero-intro"><p class="lede">${escapeHtml(summary)}</p><a class="text-link" href="#train-and-pass-pickup">Train & pass pickup ↗</a><span class="edition">FAUSTO'S ROUTES / OCTOBER 2026</span></div>
     </section>
     ${explorerHtml}
-    ${introHtml}
+${introHtml}
     <div class="section-stack">${sectionHtml}</div>
   </main>
-  <footer><div><strong>${escapeHtml(title)}</strong><p>Rendered mechanically from <a href="source.md">source Markdown</a>.</p></div><p>Source SHA-256<br><code>${digest}</code></p></footer>
+  <footer><strong>Sicily · October 2026</strong><a href="#top">Back to top ↑</a></footer>
   <script id="site-meta" type="application/json">${siteJson}</script>
 </body>
 </html>\n`;

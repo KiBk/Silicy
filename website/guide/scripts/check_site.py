@@ -31,6 +31,9 @@ def main() -> None:
 
     decoded_page = html.unescape(page)
     markdown = source.decode("utf-8")
+    assert not re.search(r'^## .*sources', markdown, re.MULTILINE | re.IGNORECASE), 'keep the guide facts-first: no sources section'
+    assert not re.search(r'href=[\"\'][^\"\']*source\.md', page), 'source download must not appear in the user interface'
+    assert 'Source SHA-256<br>' not in page, 'checksum must stay in metadata, not the visible footer'
     links = set(re.findall(r"!?\[[^\]]*\]\((https?://[^\s)]+)", markdown))
     links.update(re.findall(r"<(https?://[^>]+)>", markdown))
     missing = sorted(url for url in links if url not in decoded_page)

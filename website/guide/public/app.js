@@ -1,6 +1,7 @@
 /* Facts are rendered from Markdown; routes.json supplies GPX geometry only. */
 (() => {
   'use strict';
+  if ('scrollRestoration' in history) history.scrollRestoration='manual';
   const $ = s => document.querySelector(s), meta = JSON.parse($('#site-meta').textContent);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const colors = ['#b24e34','#ce923c','#697c3d','#24685d','#62598c','#3e749b','#b75d7c','#3c595c'];
@@ -39,7 +40,7 @@
     else if(selected){pin(towns[selected-1].slice(1),'S',colors[selected-1],towns[selected-1][0]);pin(towns[selected].slice(1),'F',colors[selected-1],towns[selected][0]);}
     else{routes.filter(r=>r.status==='exact').forEach(r=>draw(r,colors[r.stage-1],animate));towns.forEach((t,i)=>pin(t.slice(1),i?String(i):'S',i?colors[i-1]:'#1e332f',t[0]));}
     $('#map-message').hidden=!selected||exact;
-    $('#map-message').textContent='Exact track not yet imported. These are town references, not a cycling route. Open the Garmin course in the information panel.';
+    $('#map-message').textContent='GPX pending. Town markers only—not a cycling route.';
     $('#map-caption').textContent=selected?`${String(selected).padStart(2,'0')} / ${meta.stages[selected-1].title}`:"Fausto's courses · 5–12 October";
     $('#map-status').textContent=selected?(exact?`Exact GPX · ${route.pointCount.toLocaleString('en')} points`:'GPX pending · town markers only'):`${routes.filter(r=>r.status==='exact').length} / 8 exact tracks imported`;
     $('#stage-map').setAttribute('aria-label',selected?`Stage ${selected}: ${meta.stages[selected-1].title}. ${exact?'Exact imported GPX track.':'Town references only; exact track unavailable.'}`:'Sicily journey overview. Only imported tracks are drawn.');
@@ -51,7 +52,12 @@
     $('#previous').disabled=n===0;$('#next').disabled=n===8;
     $('#selection-summary').textContent=n?`Stage ${n} of 8 · ${meta.stages[n-1].date}`:'Choose one of the eight stages';
     $('.route-explorer').style.setProperty('--stage-color',colors[Math.max(0,n-1)]);
-    if(ready)renderMap();if(scroll)$('.route-explorer').scrollIntoView({block:'start',behavior:motion()?'smooth':'auto'});
+    if(ready)renderMap();if(scroll)scrollToStage();
+  }
+  function scrollToStage(){
+    // Avoid smooth-scroll/focus races and native restoration on direct links.
+    const top=$('.route-explorer').getBoundingClientRect().top+window.scrollY-$('.site-header').getBoundingClientRect().height-12;
+    window.scrollTo({top:Math.max(0,top),behavior:'instant'});
   }
   function go(n){const hash=n?`#stage/${n}`:'#the-eight-stages';if(location.hash!==hash)history.pushState(null,'',hash);select(n,true);}
   function fromUrl(scroll=false){const m=location.hash.match(/^#stage\/([1-8])$/);if(m)select(Number(m[1]),scroll);else if(['#the-eight-stages','#top',''].includes(location.hash))select(0,false);}
@@ -59,17 +65,18 @@
   $('#stage-select').addEventListener('change',e=>go(Number(e.target.value)));
   $('#previous').addEventListener('click',()=>go(Math.max(0,selected-1)));$('#next').addEventListener('click',()=>go(Math.min(8,selected+1)));$('#replay').addEventListener('click',()=>renderMap(true));
   window.addEventListener('popstate',()=>fromUrl(true));window.addEventListener('hashchange',()=>fromUrl(true));fromUrl(false);
+  window.addEventListener('pageshow',()=>{if(/^#stage\/[1-8]$/.test(location.hash))requestAnimationFrame(scrollToStage);});
   async function init(){
     try{
       const response=await fetch(`/routes.json?v=${meta.assetVersion}`);if(!response.ok)throw Error('Route data unavailable');routes=(await response.json()).routes;
-      for(const r of routes){const link=$(`[data-gpx="${r.stage}"]`),note=$(`[data-track-note="${r.stage}"]`);note.textContent=r.status==='exact'?'Map: the imported Garmin GPX, with every track point retained. The hotel can be beyond the course endpoint; use its separate finish link.':'Map: exact GPX pending. No official variant or straight-line route has been substituted.';if(r.status==='exact'){link.href=`/${r.gpx}`;link.hidden=false;}}
+      for(const r of routes){const link=$(`[data-gpx="${r.stage}"]`),note=$(`[data-track-note="${r.stage}"]`);note.textContent=r.status==='exact'?'Hotel link: last-mile destination.':'Stops: candidates until GPX checked.';if(r.status==='exact'){link.href=`/${r.gpx}`;link.hidden=false;}}
       if(typeof L==='undefined')throw Error('Map library unavailable');
       map=L.map('stage-map',{zoomControl:false,dragging:false,scrollWheelZoom:false,doubleClickZoom:false,touchZoom:false,boxZoom:false,keyboard:false,zoomAnimation:false,fadeAnimation:false});
       const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'}).addTo(map);
       let failures=0;tiles.on('tileerror',()=>{if(++failures===3){const p=document.createElement('p');p.className='tile-warning';p.textContent='Base map unavailable; the GPX line is still shown. Download GPX for offline navigation.';$('.map-frame').append(p);}});
       layer=L.layerGroup().addTo(map);ready=true;renderMap();let observed=false;new ResizeObserver(()=>{if(observed)renderMap(false);observed=true;}).observe($('.map-frame'));
     }catch(error){$('#map-message').hidden=false;$('#map-message').textContent='Map could not load. All addresses and Garmin links remain available in the stage cards.';$('#map-status').textContent='Map unavailable';console.warn(error.message);}
-    if(/^#stage\/[1-8]$/.test(location.hash))requestAnimationFrame(()=>fromUrl(true));
+    if(/^#stage\/[1-8]$/.test(location.hash))requestAnimationFrame(()=>requestAnimationFrame(scrollToStage));
   }
   init();
 })();
