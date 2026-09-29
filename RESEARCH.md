@@ -15,14 +15,14 @@ Evidence index updated **29 September 2026** for revised dates, rail documents, 
 - [Fausto's original Modica–Catania GPX](website/modica-catania-fausto.gpx) — historical asset; no longer the active 5 October route
 - [Suggested Modica–Scicli–Sampieri outline](https://www.google.com/maps/dir/?api=1&origin=Modica%2C%20Italy&destination=Modica%2C%20Italy&travelmode=bicycling&waypoints=Scicli%2C%20Italy%7CSampieri%2C%20Italy) — a discussion aid, not a checked GPX
 
-The official Sicily Divide pages and current GPX are authoritative. Distances in [`PLAN.md`](PLAN.md) are stage-level planning figures; navigation should use freshly downloaded official files.
+The official Sicily Divide pages are general route references. **For this trip, Fausto's eight Garmin courses take precedence**: see [ROUTES.md](ROUTES.md). The current official Stage 4 variant via Racalmuto is about 85.8 km and differs from his 68.24 km course. Stage 4's exact GPX is imported; seven exports are still needed. Do not substitute generic official files or reverse the historical northbound course.
 
 ## Train and bicycle transport
 
 - [Trenitalia regional information for Sicily](https://www.trenitalia.com/it/regionale/sicilia/informazioni-utili-sicilia.html)
 - Private Trenitalia receipt issued 28 September: **5 October RV 5468, Modica 07:34 → Caltanissetta Xirbi 10:54; RV 5491, 11:01 → Palermo Centrale 12:29**. Seven-minute connection. €21 passenger fare and €0 bike supplement shown. The receipt states **NON VALIDO PER VIAGGIARE**: actual travel-valid tickets still need to be obtained/saved. It does not prove reserved bicycle capacity. The PDF, purchaser details and codes are deliberately excluded from this public repository.
 
-The old evening Catania–Palermo candidate is superseded. Recheck the two booked services and any engineering/replacement-bus changes 48–72 hours before departure. No transport on 12 or 13 October has been verified or booked by this research.
+The old evening Catania–Palermo candidate is superseded. Recheck the two booked services and any engineering/replacement-bus changes 48–72 hours before departure. Fausto supplied a 112.98 km Catania–Modica cycling course for 12 October; return transport on 13 October has not been verified or booked.
 
 Questions to resolve with the operator if the published symbols are unclear:
 
@@ -54,15 +54,13 @@ The Etna day is intentionally weather-gated. A reservation is not evidence that 
 - [Garmin LiveTrack requirements](https://support.garmin.com/en-AU/?faq=HbqxxbiBGA3mDhlLX4GUw8&topicTag=region_livetrack)
 - [OpenStreetMap attribution and licence](https://www.openstreetmap.org/copyright)
 - [Leaflet project](https://leafletjs.com/)
-- [Public delayed dotwatcher](https://sicily.apps.kibk.net/api/dotwatcher)
-
-The public tracker is designed to expose only approved display names and delayed, normalized positions during the trip window. Device identifiers, private sharing links, credentials, and emergency contact details do not belong in this repository.
+The current deployment has live tracking disabled. The new guide does not request riders' locations or enable any tracking feed. Device identifiers, private sharing links, credentials, and emergency contact details do not belong in this repository.
 
 ## Research gaps
 
 - Selection of Catania accommodation on 11–12 and 13–17 October, plus confirmed bike-storage policy
 - Bike transfer from Catania airport to Modica on 3 October
-- Bike handoff and return transport Catania–Modica–Catania on 12–13 October
+- Monday Modica overnight, bike handoff and Tuesday Modica–Catania return transport
 - Train fallback capable of carrying two assembled bikes
 - Current Etna operator shortlist, cancellation rules, and access conditions
 - Food/opening-hours checks for small towns and Sunday 11 October

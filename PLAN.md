@@ -25,7 +25,7 @@ Source: privately supplied Trenitalia receipt, issued 28 September. Passenger fa
 
 The supplied email confirms this collection point. Kirill confirmed on 29 September that Fausto has arranged **early pickup**. Normal published Monday hours are **16:00–20:00**, not the agreed early-handover time. Keep the exact handover details in your private messages.
 
-Then ride **Palermo → Gibellina, 79 km / 1,394 m**, staying at **B&B Mille e una notte**. A 12:29 Palermo arrival makes this a demanding afternoon stage. Eat on the train, minimise sightseeing, carry working lights, agree a transfer fallback if delayed and tell the B&B your arrival window.
+Then ride **Palermo → Gibellina, 77 km / 1,396 m**, staying at **B&B Mille e una notte**. A 12:29 Palermo arrival makes this a demanding afternoon stage. Eat on the train, minimise sightseeing, carry working lights, agree a transfer fallback if delayed and tell the B&B your arrival window.
 
 The earlier 117.9 km Modica–Catania ride, evening train and Palermo hotel are superseded. The original GPX is retained as a historical asset, not an active 5 October route.
 
@@ -33,19 +33,19 @@ The earlier 117.9 km Modica–Catania ride, evening train and Palermo hotel are 
 
 | Date | Stage | Distance | Climbing | Overnight | Main note |
 |---|---|---:|---:|---|---|
-| Mon 5 Oct | Palermo → Gibellina | 79 km | 1,394 m | B&B Mille e una notte | Afternoon start; official road alternative if SP12 wet |
-| Tue 6 Oct | Gibellina → Sambuca di Sicilia | 71 km | 1,428 m | Rinaldo Holiday Home | Safe, permitted access at ruins; carry water |
-| Wed 7 Oct | Sambuca → Santo Stefano Quisquina | 59 km | 1,393 m | Casa Quisquina | No dependable food at San Carlo; resupply Burgio |
-| Thu 8 Oct | Santo Stefano Quisquina → Montedoro | 62 km | 1,479 m | Albergo Diffuso | Confirm assigned building, dinner, bike storage |
-| Fri 9 Oct | Montedoro → Enna | 70 km | 1,705 m | B&B Proserpina | Hardest stage; main resupply Caltanissetta |
-| Sat 10 Oct | Enna → Regalbuto | 63 km | 1,211 m | B&B Via Venezia | Leonforte resupply; prepare Sunday's food |
-| Sun 11 Oct | Regalbuto → Catania | 61 km | 699 m | Not booked | Sunday opening risk and urban traffic |
+| Mon 5 Oct | Palermo → Gibellina | 77 km | 1,396 m | B&B Mille e una notte | Afternoon start; agree a wet-road fallback with Fausto |
+| Tue 6 Oct | Gibellina → Sambuca di Sicilia | 71.36 km | 1,430 m | Rinaldo Holiday Home | Safe, permitted access at ruins; carry water |
+| Wed 7 Oct | Sambuca → Santo Stefano Quisquina | 59.59 km | 1,333 m | Casa Quisquina | Do not rely on food at San Carlo; check Burgio detour |
+| Thu 8 Oct | Santo Stefano Quisquina → Montedoro | 68.24 km | 1,516 m | Albergo Diffuso | Fausto's route, not the current official variant; confirm assigned building |
+| Fri 9 Oct | Montedoro → Enna | 69.63 km | 1,722 m | B&B Proserpina | Most climbing; check Caltanissetta resupply |
+| Sat 10 Oct | Enna → Regalbuto | 63.27 km | 1,255 m | B&B Via Venezia | Check Leonforte resupply; prepare Sunday's food |
+| Sun 11 Oct | Regalbuto → Catania | 60.19 km | 742 m | Not booked | Sunday opening risk and urban traffic |
 
-**Total: 465 km / 9,309 m.** Optional warm-up adds ~50 km / 800 m. See [ACCOMMODATION.md](ACCOMMODATION.md) for addresses, map links and supplied prices. Confirm bed configuration, meals, cancellation terms and locked indoor bike storage separately.
+**Divide total: 469.28 km / 9,394 m.** Figures now follow Fausto's table, supplied 29 September; [all eight course links](ROUTES.md). Optional warm-up adds ~50 km / 800 m. See [ACCOMMODATION.md](ACCOMMODATION.md) for addresses, map links and supplied prices. Confirm bed configuration, meals, cancellation terms and locked indoor bike storage separately. Suggested resupply towns still require comparison with the exact GPX and opening-hours checks.
 
 ## 12 October — back to Modica
 
-Return Catania → Modica on Monday (“Mondina” interpreted as Modica). Mode, departure time, bike handling and Monday overnight with Fausto still need confirmation. Do not assume the old northbound GPX is a checked reverse route or count this as a booked train.
+Ride **Catania → Modica, 112.98 km / 1,426 m**, using [Fausto's southbound course](https://connect.garmin.com/app/course/510248637). This is the longest stage. Start early and agree food/water stops. Departure time and Monday overnight with Fausto still need confirmation. Do not reverse the old northbound GPX. **All eight stages: 582.26 km / 10,820 m.**
 
 ## 13 October — Catania and reunion
 

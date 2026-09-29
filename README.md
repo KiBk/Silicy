@@ -8,7 +8,7 @@ Shared plan for **3–17 October 2026**, updated **29 September** with Fausto's 
 
 **Divider's Pass:** **Genchi Extreme, Via Cavour 28, 90133 Palermo** — [open in Maps](https://www.google.com/maps/search/?api=1&query=Genchi%20Extreme%2C%20Via%20Cavour%2028%2C%20Palermo). Early pickup is **arranged by Fausto, per Kirill's confirmation on 29 September**. The email confirms the collection point, not a time. Normal Monday hours are 16:00–20:00; use the separately arranged handover. [Shop contact page](https://genchiextreme.com/contatti/).
 
-Then ride **Stage 1: Palermo → Gibellina, 79 km / 1,394 m climbing**. Minimise stops, take working lights and agree a delay/transfer fallback for this afternoon start.
+Then ride **Stage 1: Palermo → Gibellina, 77 km / 1,396 m climbing**, using Fausto's course. Minimise stops, take working lights and agree a delay/transfer fallback for this afternoon start.
 
 **Ticket check:** the supplied PDF is a receipt marked “NON VALIDO PER VIAGGIARE.” Get the actual travel-valid ticket(s) from Fausto and save them offline. The PDF and booking identifiers are not published here.
 
@@ -19,6 +19,8 @@ Then ride **Stage 1: Palermo → Gibellina, 79 km / 1,394 m climbing**. Minimise
 - [CATANIA-STAY.md](CATANIA-STAY.md) — couple options for 13–17 October, €350–€550 budget
 - [CHECKLIST.md](CHECKLIST.md) — confirmed arrangements and open tasks
 - [RESEARCH.md](RESEARCH.md) — sources and verification boundaries
+- [ROUTES.md](ROUTES.md) — Fausto's eight Garmin courses, distances and GPX import status
+- [MAP-LINKS.md](MAP-LINKS.md) — checked navigation destinations
 - [website/README.md](website/README.md) — website source and local preview
 
 ## Trip at a glance
@@ -34,19 +36,21 @@ Then ride **Stage 1: Palermo → Gibellina, 79 km / 1,394 m climbing**. Minimise
 | Fri 9 Oct | Montedoro → Enna | B&B Proserpina — booked |
 | Sat 10 Oct | Enna → Regalbuto | B&B Via Venezia — booked |
 | Sun 11 Oct | Regalbuto → Catania; finish the Divide | Cycling hotel — not booked |
-| Mon 12 Oct | Catania → Modica; transport to agree | Modica; confirm with Fausto |
+| Mon 12 Oct | Ride Catania → Modica, 112.98 km / 1,426 m | Modica; confirm with Fausto |
 | Tue 13 Oct | Modica → Catania; girlfriend arrives in the evening | Couple stay — not booked |
 | Wed 14 Oct | Catania historic centre, market, long lunch | Same Catania base |
 | Thu 15 Oct | Weather-dependent Etna day; coast/Taormina fallback | Same Catania base |
 | Fri 16 Oct | Benedettini, Roman Catania, lava coast; pack early | Same Catania base |
 | Sat 17 Oct | Arrange ~03:30 transfer for 06:00 flight | Departure |
 
-Seven Divide stages: **465 km / 9,309 m climbing**. With the optional warm-up: **515 km / 10,109 m over eight riding days**. The old 5 October Modica–Catania ride and Palermo overnight are superseded. Travel on 12–13 October is not counted as cycling until its mode is decided.
+Fausto's seven Divide stages total **469.28 km / 9,394 m climbing**. Including his **12 October Catania–Modica course: 582.26 km / 10,820 m across eight stages**. The optional warm-up adds about 50 km / 800 m. The old 5 October Modica–Catania ride and Palermo overnight are superseded. Tuesday 13 October's return transport remains undecided.
 
 “Mondina” is interpreted as **Modica**. The existing 17 October departure is retained, making the couple stay four nights.
 
 ## Website and sharing
 
-Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); complete source in [website/](website/). This repository is intentionally the exception to the shared websites directory. **This 29 September update covers the Markdown plan; the website source and live site have not yet been synchronized and still show the older itinerary. Use these Markdown files for current dates.** A repository push does not itself deploy the hosted site.
+Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The redesigned English guide is deployed with the revised itinerary, eight selectable stage cards, checked destination links and Stage 4's exact animated GPX map. The other seven tracks are visibly marked GPX pending.** See [the Stage 4 view](https://sicily.apps.kibk.net/#stage/4) and [release checks](website/RELEASE.md).
+
+The site's existing private/Tailscale access is preserved; the GitHub repository remains the public sharing surface. Live tracking remains disabled. The historical site/translations are retained in source but are not the current guide. A repository push does not itself deploy the hosted site.
 
 Coordinate through issues or pull requests. Never publish booking codes, payment/passport data, Fausto's home address, the ticket PDF or private tracking links. Public business addresses are included for navigation.

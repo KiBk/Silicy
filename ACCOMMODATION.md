@@ -8,8 +8,8 @@ Amounts are copied from Kirill's message and **assumed to be euros**. Per-person
 
 | Check-in → out | Finish | Booked by Fausto | Supplied amount | Address / navigation |
 |---|---|---|---:|---|
-| 5 → 6 Oct | Gibellina | **B&B Mille e una notte** | €69 | Via Pietro Novelli 13, 91024 Gibellina · [Map](https://www.google.com/maps/search/?api=1&query=Mille%20e%20Una%20Notte%2C%20Via%20Pietro%20Novelli%2013%2C%20Gibellina) |
-| 6 → 7 Oct | Sambuca di Sicilia | **Rinaldo Holiday Home** | €70 | Vicolo Oddo 4, 92017 Sambuca di Sicilia · [Map](https://www.google.com/maps/search/?api=1&query=Rinaldo%20Holiday%20Home%2C%20Vicolo%20Oddo%204%2C%20Sambuca%20di%20Sicilia) |
+| 5 → 6 Oct | Gibellina | **B&B Mille e una notte** | €69 | Via Pietro Novelli 13, Nuova Gibellina · [Map](https://www.google.com/maps/search/?api=1&query=B%26B%20Mille%20e%20una%20notte%20Via%20Pietro%20Novelli%2013%20Gibellina) |
+| 6 → 7 Oct | Sambuca di Sicilia | **Rinaldo Holiday Home** | €70 | Vicolo Oddo 4, 92017 Sambuca di Sicilia · [Map — pinned to the two-bedroom listing](https://www.google.com/maps/search/?api=1&query=Rinaldo%20Holiday%20Home&query_place_id=ChIJ64shrpQ-GhMRfQHMY7rzbIw) |
 | 7 → 8 Oct | Santo Stefano Quisquina | **Casa Quisquina** | €60 | Via Palma 50, 92020 Santo Stefano Quisquina · [Map](https://www.google.com/maps/search/?api=1&query=Casa%20Quisquina%2C%20Via%20Palma%2050%2C%20Santo%20Stefano%20Quisquina) |
 | 8 → 9 Oct | Montedoro | **Albergo Diffuso** | €45 | Main listed site: Via Flaminia 1, 93010 Montedoro · [Map](https://www.google.com/maps/search/?api=1&query=Albergo%20Diffuso%2C%20Via%20Flaminia%201%2C%20Montedoro). Confirm assigned building. |
 | 9 → 10 Oct | Enna | **B&B Proserpina** | €60 | Piazza Scelfo, corner Via Sant'Agata 108, 94100 Enna · [Map](https://www.google.com/maps/search/?api=1&query=Proserpina%2C%20Via%20Sant%27Agata%20108%2C%20Enna) |

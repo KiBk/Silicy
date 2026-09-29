@@ -13,17 +13,17 @@ Updated **29 September 2026**. Confirmed below means reported by Kirill or suppo
 | Open | Kirill / Fausto | 11–12 Oct | Book the Catania cyclists' finish night | Separate/shared quotes in ACCOMMODATION.md |
 | Booked; ticket check open | Fausto / Kirill | 5 Oct | RV 5468 07:34 + RV 5491 11:01, Modica → Palermo 12:29 | Receipt reviewed; obtain actual travel-valid tickets |
 | Confirmed arrangement | Fausto | 5 Oct after train | Early Divider's Pass handover at Genchi Extreme, Via Cavour 28, Palermo | Kirill's confirmation, 29 Sep; exact time kept privately |
-| Open | Kirill / Fausto | Before 5 Oct | Missed-connection / late Stage 1 transfer fallback; working lights | Seven-minute rail connection; afternoon 79 km stage |
-| Open | Kirill / Fausto | 12–13 Oct | Catania → Modica Monday, Modica overnight, return Catania Tuesday | Transport mode/time and Monday overnight still to confirm |
+| Open | Kirill / Fausto | Before 5 Oct | Missed-connection / late Stage 1 transfer fallback; working lights | Seven-minute rail connection; afternoon 77 km stage |
+| Ride confirmed; logistics open | Kirill / Fausto | 12–13 Oct | Ride Catania → Modica Monday, 112.98 km; return Catania Tuesday | Fausto supplied southbound Garmin course; Monday overnight and Tuesday transport still to confirm |
 | Open | Kirill | 13–17 Oct | Book couple base, four nights, €350–€550 total | CATANIA-STAY.md shortlist; confirm 03:30 key return |
 | Open | Kirill / Fausto | Before 13 Oct evening | Decide bike handoff/storage for Modica return and couple stay | Method and timing |
 | Open | — | Early | Reserve cancellable Etna plan for 15 October | Operator and cancellation deadline |
-| Open | — | 1–2 weeks before | Download current official Sicily Divide GPX and compare it with the website route | GPX version/date |
+| Partial | Kirill / Fausto | Before departure | Import Fausto's exact eight Garmin GPX files, not generic official variants | Stage 4 imported; seven exports still needed; see ROUTES.md |
 | Open | — | 1 week before | Check forecast and route condition reports for every stage | Review date |
 | Open | Fausto / Kirill | 48–72 hours before | Recheck Modica–Xirbi–Palermo services, seven-minute change and assembled-bike carriage | Train numbers, fallback and review date |
-| Open | — | Before riding | Test the consented tracking setup on both phones | Test date only |
+| Disabled | — | Current deployment | Live tracking remains disabled; no position feed is used | Do not re-enable as part of a website update |
 | Open | — | 16 October | Confirm 03:30 airport transfer | Provider and confirmation date |
-| Open | — | Before using the website as the current guide | Synchronize website source/translations and deploy the revised itinerary | This update changes Markdown only; live site still has the old plan |
+| Deployed; route imports partial | — | 29 September | Revised English website with eight stage cards and Stage 4 exact track | Live/source/asset checks passed; seven GPX files still needed; historical translations not synchronized |
 
 ## Packing and route readiness
 
