@@ -1,10 +1,24 @@
 # Catania together — 13–17 October 2026
 
-**Four nights, two adults, one double room or entire apartment; €350–€550 total budget.** Tuesday evening reunion, very early Saturday departure for the existing 06:00 flight. Separate from the cyclists' 11 October night. Nothing below is booked.
+**Booked: Catania Centre Urban Art B&B, 13–17 October 2026, four nights, two adults.** Kirill reported the booking on **30 September 2026** after selecting the recommended option. The reservation itself has not been accessed. This does not book the cyclists' separate 11–12 October night.
 
-Live Booking.com snapshot: **29 September 2026**, EUR, not signed in. Totals cover the **complete four-night stay for two adults**, with taxes/fees included as displayed. Recheck final tax/payment breakdown. Cancellation dates use Booking.com's “before” wording; check the exact cutoff/time zone before booking.
+## Booked base — Catania Centre Urban Art B&B
 
-## Shortlist
+**Via Androne 66, scala B, 5th floor, 95124 Catania.** [Google Maps](https://www.google.com/maps/search/?api=1&query=Catania%20Centre%20Urban%20Art%20B%26B%2C%20Via%20Androne%2066%2C%20Catania) · [Booking.com listing](https://www.booking.com/hotel/it/catania-centre-urban-art-b-amp-b.html).
+
+- **Host:** Agnese. A lift is listed. Google Maps resolves to the correct property and explicitly lists scala B, piano 5°; checked 30 September.
+- **Arrival:** Tuesday 13 October. Published check-in **14:00–00:00**; tell the host the expected arrival time. Booking.com house rules rechecked 30 September.
+- **Departure:** Saturday 17 October. Published checkout **07:00–10:00**. The itinerary still plans a 06:00 flight and ~03:30 departure, so arrange early key return and airport pickup; neither is confirmed.
+- **Price:** Kirill's earlier quote was approximately **4,200 NOK total**. Final amount, taxes, payment and cancellation terms have not been supplied. Do not apply the stated 10% discount again without checking whether it was already included.
+- **Room:** the compared offer was a 21 m² Deluxe Double Room with queen bed and balcony; the booked room/category has not been confirmed from the reservation.
+- **Breakfast:** the compared rate included breakfast. Guests describe self-service provisions plus a café voucher, not a guaranteed cooked breakfast served by the host. Confirm inclusion, café arrangements and any departure-day takeaway in the booking.
+- **Location:** [walking route to Piazza Duomo](https://www.google.com/maps/dir/?api=1&origin=Via%20Androne%2066%2C%20Catania&destination=Piazza%20del%20Duomo%2C%20Catania&travelmode=walking), 1.4 km / about 18 minutes when checked 29 September. Ask for a quiet room away from the lift.
+
+No booking reference, access code, payment information or private host contact is published.
+
+## Earlier shortlist — retained for reference, not booked
+
+Booking.com snapshot: **29 September 2026**, EUR, not signed in. These were four-night totals for two adults with taxes/fees included as displayed; they are no longer the active choice. Cancellation dates use Booking.com's “before” wording and are historical quotes, not the booked rate's conditions.
 
 | Option | Total / average per night | Accommodation | Cancellation shown | Assessment |
 |---|---:|---|---|---|
@@ -34,12 +48,12 @@ Check-in **11:30–23:30**, checkout **08:00–11:00**. Confirm early key return
 
 Check-in **15:00–19:00**, checkout **08:00–10:00**. Confirm early departure and late-access arrangements; check which unit is assigned and that it has the advertised spa tub/laundry facility.
 
-## Before booking
+## Remaining arrangements for the booked stay
 
-1. Confirm 13–17 October matches both flights and whether Kirill can check in before the evening airport meeting.
+1. Save the actual reservation privately and check final price, room, breakfast and cancellation terms. Advise Agnese when Kirill will arrive on 13 October.
 2. Get written agreement for **~03:30 checkout/key return on 17 October**, any fee and taxi pickup with luggage.
 3. If Kirill still has the bicycle, get explicit locked indoor storage permission; none is verified here.
 4. Check quietness, lift/stairs, exact cancellation deadline and final taxes/fees.
-5. Keep one base for four nights; do not book 12 October in Catania if staying in Modica.
+5. Keep the booked base for four nights; 12 October remains Modica, with the overnight to confirm with Fausto.
 
-Enquiry draft (not sent): “We are two adults staying 13–17 October. We meet in Catania on Tuesday evening and need to leave around 03:30 Saturday for a 06:00 flight. Please confirm check-in, early key return without an extra fee, a quiet room/apartment, and the total including taxes. If needed, can you securely store an assembled bicycle indoors?”
+Enquiry draft (not sent): “Hello Agnese, we have booked for two adults, 13–17 October. Please confirm how to return the keys around 03:30 on Saturday for our early flight and whether you can arrange an airport taxi. Could we have a quiet room away from the lift? Please also confirm our breakfast arrangements. I will send our Tuesday arrival time separately.”

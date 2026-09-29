@@ -1,6 +1,6 @@
 # Sicily 2026: Divide & Together
 
-Shared plan for **3–17 October 2026**, updated **29 September** with Fausto's six hotel bookings and the Modica–Palermo train. The Divide now runs **5–11 October**. Catania accommodation is still needed for the cyclists on **11–12 October** and the couple on **13–17 October**.
+Shared plan for **3–17 October 2026**, updated **30 September**. Fausto's six cycling stays and **Catania Centre Urban Art B&B for the couple, 13–17 October**, are booked. The Divide runs **5–11 October**; the cyclists' Catania night on **11–12 October** is still unbooked.
 
 ## Monday 5 October — keep this handy
 
@@ -16,7 +16,7 @@ Then ride **Stage 1: Palermo → Gibellina, 77 km / 1,396 m climbing**, using Fa
 
 - [PLAN.md](PLAN.md) — itinerary and train details
 - [ACCOMMODATION.md](ACCOMMODATION.md) — booked cycling stays, prices, addresses and map links
-- [CATANIA-STAY.md](CATANIA-STAY.md) — couple options for 13–17 October, €350–€550 budget
+- [CATANIA-STAY.md](CATANIA-STAY.md) — booked Urban Art B&B, 13–17 October; arrival and early departure details
 - [CHECKLIST.md](CHECKLIST.md) — confirmed arrangements and open tasks
 - [RESEARCH.md](RESEARCH.md) — sources and verification boundaries
 - [ROUTES.md](ROUTES.md) — Fausto's eight Garmin courses, distances and GPX import status
@@ -37,7 +37,7 @@ Then ride **Stage 1: Palermo → Gibellina, 77 km / 1,396 m climbing**, using Fa
 | Sat 10 Oct | Enna → Regalbuto | B&B Via Venezia — booked |
 | Sun 11 Oct | Regalbuto → Catania; finish the Divide | Cycling hotel — not booked |
 | Mon 12 Oct | Ride Catania → Modica, 112.98 km / 1,426 m | Modica; confirm with Fausto |
-| Tue 13 Oct | Modica → Catania; girlfriend arrives in the evening | Couple stay — not booked |
+| Tue 13 Oct | Modica → Catania; girlfriend arrives in the evening | Catania Centre Urban Art B&B — booked, 13–17 Oct |
 | Wed 14 Oct | Catania historic centre, market, long lunch | Same Catania base |
 | Thu 15 Oct | Weather-dependent Etna day; coast/Taormina fallback | Same Catania base |
 | Fri 16 Oct | Benedettini, Roman Catania, lava coast; pack early | Same Catania base |

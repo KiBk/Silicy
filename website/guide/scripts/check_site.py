@@ -34,6 +34,12 @@ def main() -> None:
     assert not re.search(r'^## .*sources', markdown, re.MULTILINE | re.IGNORECASE), 'keep the guide facts-first: no sources section'
     assert not re.search(r'href=[\"\'][^\"\']*source\.md', page), 'source download must not appear in the user interface'
     assert 'Source SHA-256<br>' not in page, 'checksum must stay in metadata, not the visible footer'
+    couple_stay = markdown.split('### Together · 13–17 October\n', 1)[1].split('\n## ', 1)[0]
+    assert '**Booked · Catania Centre Urban Art B&B' in couple_stay, 'couple stay must show the reported booking'
+    assert 'Not booked' not in couple_stay and 'Duomo Shine' not in couple_stay, 'superseded shortlist must not appear as the active couple stay'
+    assert 'not the confirmed booking total' in couple_stay, 'do not turn the earlier quote into a confirmed price'
+    assert 'early departure is not yet agreed' in couple_stay, 'early checkout is not confirmed by booking alone'
+    assert '### Cyclists · 11–12 October\n\nNot booked.' in markdown, 'couple booking must not mark the cycling finish night as booked'
     links = set(re.findall(r"!?\[[^\]]*\]\((https?://[^\s)]+)", markdown))
     links.update(re.findall(r"<(https?://[^>]+)>", markdown))
     missing = sorted(url for url in links if url not in decoded_page)

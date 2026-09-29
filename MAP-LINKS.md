@@ -15,6 +15,7 @@ Checked **29 September 2026** in Google Maps, with final Rinaldo/Modica checks a
 | B&B Via Venezia | Bed & Breakfast Via Venezia; Via Venezia 10, Regalbuto | Correct business |
 | Catania public finish | Piazza del Duomo, Catania | Correct square; hotel not booked |
 | Modica public reference | Modica, province/free municipal consortium of Ragusa, Sicily | Correct town only; no private residential endpoint |
+| Catania Centre Urban Art B&B (13–17 Oct) | Via Androne 66 / scala B piano 5°, 95124 Catania CT | Correct named business and address, checked 30 September 2026; separate from the still-unbooked cycling finish night |
 
 ## Regional stops
 

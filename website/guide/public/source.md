@@ -209,13 +209,15 @@ Not booked. Two adults, one night. Prices checked **29 September 2026**; recheck
 
 ### Together · 13–17 October
 
-Not booked. **Four nights, two adults; €350–€550 budget.** Booking.com totals checked **29 September 2026**. Confirm **03:30 key return** before booking.
+**Booked · Catania Centre Urban Art B&B · four nights, two adults.**
 
-| Stay | Total | Short description |
-|---|---:|---|
-| [Duomo Shine](https://www.booking.com/hotel/it/catania-duomo-shine.html?checkin=2026-10-13&checkout=2026-10-17&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR) | **€357** | 67 m² apartment, kitchen, washer, lift. Check-in until 23:00. |
-| [Suite Cutelli](https://www.booking.com/hotel/it/suite-amp-spa-cutelli.html?checkin=2026-10-13&checkout=2026-10-17&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR) | **€424 / €468 with breakfast** | King room, courtyard view. Check-in until 23:30. |
-| [Aera Suites](https://www.booking.com/hotel/it/aera-luxury-suites-303-304-305.html?checkin=2026-10-13&checkout=2026-10-17&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR) | **€527** | Apartment, balcony, spa bath. Check-in ends 19:00—arrange late arrival. |
+[Catania Centre Urban Art B&B — Google Maps](https://www.google.com/maps/search/?api=1&query=Catania%20Centre%20Urban%20Art%20B%26B%2C%20Via%20Androne%2066%2C%20Catania) — **Via Androne 66, scala B, 5th floor, 95124 Catania.** Lift available.
+
+[Booking.com listing](https://www.booking.com/hotel/it/catania-centre-urban-art-b-amp-b.html) — check-in **14:00–00:00**; advise arrival time. Host: **Agnese**.
+
+**Breakfast:** café voucher + self-service food described by guests; confirm inclusion in your booking. **Price:** previously quoted ~**4,200 NOK** total, not the confirmed booking total.
+
+**17 October: arrange ~03:30 key return and airport pickup.** Normal checkout is 07:00–10:00; early departure is not yet agreed. Booking reported 30 September; listed hours checked the same day.
 
 ## Before and after the ride
 
@@ -223,7 +225,7 @@ Not booked. **Four nights, two adults; €350–€550 budget.** Booking.com tot
 |---|---|
 | **3 Oct** | Arrive Catania around 17:00; bikes and transfer to Fausto's in Modica. |
 | **4 Oct** | Optional Modica–Scicli–Sampieri warm-up, ~50 km / 800 m. Second night at Fausto's. |
-| **13 Oct** | Modica → Catania; transport to arrange. Meet girlfriend in the evening. |
+| **13 Oct** | Modica → Catania; transport to arrange. Check in at Urban Art B&B; meet girlfriend in the evening. |
 | **14 Oct** | Catania centre, fish market and long lunch. |
 | **15 Oct** | Etna, weather/access permitting; coast or Taormina fallback. |
 | **16 Oct** | Benedettini, Roman theatre or lava coast. Pack early. |

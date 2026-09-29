@@ -1,6 +1,6 @@
 # Coordination checklist
 
-Updated **29 September 2026**. Confirmed below means reported by Kirill or supported by the private receipt; it does not imply that reservations were independently accessed. Never commit booking codes, payment/passport data, private contact details, Fausto's home address or private tracker links.
+Updated **30 September 2026**. Confirmed below means reported by Kirill or supported by the private receipt; it does not imply that reservations were independently accessed. Never commit booking codes, payment/passport data, private contact details, Fausto's home address or private tracker links.
 
 | Status | Owner | When | Item | Completion evidence |
 |---|---|---|---|---|
@@ -15,7 +15,8 @@ Updated **29 September 2026**. Confirmed below means reported by Kirill or suppo
 | Confirmed arrangement | Fausto | 5 Oct after train | Early Divider's Pass handover at Genchi Extreme, Via Cavour 28, Palermo | Kirill's confirmation, 29 Sep; exact time kept privately |
 | Open | Kirill / Fausto | Before 5 Oct | Missed-connection / late Stage 1 transfer fallback; working lights | Seven-minute rail connection; afternoon 77 km stage |
 | Ride confirmed; logistics open | Kirill / Fausto | 12–13 Oct | Ride Catania → Modica Monday, 112.98 km; return Catania Tuesday | Fausto supplied southbound Garmin course; Monday overnight and Tuesday transport still to confirm |
-| Open | Kirill | 13–17 Oct | Book couple base, four nights, €350–€550 total | CATANIA-STAY.md shortlist; confirm 03:30 key return |
+| Booked | Kirill | 13–17 Oct | Catania Centre Urban Art B&B, four nights, two adults | Kirill's confirmation, 30 Sep; actual room/rate details not supplied |
+| Open | Kirill | Before arrival | Advise Agnese of arrival; confirm booked rate details, breakfast and ~03:30 key return | CATANIA-STAY.md; early departure not yet agreed |
 | Open | Kirill / Fausto | Before 13 Oct evening | Decide bike handoff/storage for Modica return and couple stay | Method and timing |
 | Open | — | Early | Reserve cancellable Etna plan for 15 October | Operator and cancellation deadline |
 | Partial | Kirill / Fausto | Before departure | Import Fausto's exact eight Garmin GPX files, not generic official variants | Stage 4 imported; seven exports still needed; see ROUTES.md |

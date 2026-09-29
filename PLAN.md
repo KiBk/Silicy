@@ -1,6 +1,6 @@
 # Trip plan
 
-Updated **29 September 2026**. Travel **3–17 October 2026**; all times local in Sicily. Hotel bookings are confirmed by Kirill's report of Fausto's arrangements, not independently accessed reservations.
+Updated **30 September 2026**. Travel **3–17 October 2026**; all times local in Sicily. Hotel bookings are confirmed by Kirill's reports, not independently accessed reservations.
 
 ## 3–4 October — Fausto's place in Modica
 
@@ -51,7 +51,7 @@ Ride **Catania → Modica, 112.98 km / 1,426 m**, using [Fausto's southbound cou
 
 Travel Modica → Catania during the day, with margin for check-in before meeting your girlfriend in the evening. Agree transport and finish bike handoff/storage before the reunion. This is **a transfer day, not the former protected rest day**.
 
-Book one central base for **13–17 October: four nights, two adults, €350–€550 total budget**. See [CATANIA-STAY.md](CATANIA-STAY.md). Nothing is booked yet.
+**Booked: Catania Centre Urban Art B&B, 13–17 October, four nights for two adults**, reported by Kirill on 30 September. **Via Androne 66, scala B, 5th floor, 95124 Catania** — [Google Maps](https://www.google.com/maps/search/?api=1&query=Catania%20Centre%20Urban%20Art%20B%26B%2C%20Via%20Androne%2066%2C%20Catania). Lift available; check-in 14:00–00:00, arrival time to be advised to Agnese. Earlier quote ~4,200 NOK; final amount and room/rate conditions not supplied. See [CATANIA-STAY.md](CATANIA-STAY.md).
 
 ## 14–16 October — city, Etna and coast
 

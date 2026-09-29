@@ -38,7 +38,7 @@ The supplied Sicily Divide email dated 28 September identifies **Genchi Extreme,
 ## Accommodation evidence
 
 - [ACCOMMODATION.md](ACCOMMODATION.md): six user-confirmed bookings, supplied amounts (EUR assumed; price basis unspecified), checked business addresses and exact-date Booking.com alternatives for 11–12 October. Each property has a source link.
-- [CATANIA-STAY.md](CATANIA-STAY.md): live Booking.com offers for **13–17 October, two adults, four nights**, EUR, not signed in. Direct property pages checked for prices, dates, room type, cancellation and arrival/departure windows on 29 September. These are not Airbnb quotes and are not bookings.
+- [CATANIA-STAY.md](CATANIA-STAY.md): **Catania Centre Urban Art B&B booked for 13–17 October, two adults, four nights**, reported by Kirill on 30 September. Public address and house rules rechecked 30 September; the actual reservation, final price, room and rate conditions were not accessed. Earlier 29 September Booking.com alternatives remain historical quotes, not bookings.
 - No messages were sent to properties. Secure bicycle storage, special early checkout and private arrangements were not independently confirmed. Room rates and availability are volatile.
 
 ## Catania, Etna, and coast
@@ -58,7 +58,7 @@ The current deployment has live tracking disabled. The new guide does not reques
 
 ## Research gaps
 
-- Selection of Catania accommodation on 11–12 and 13–17 October, plus confirmed bike-storage policy
+- Selection of Catania accommodation on 11–12 October; booked Urban Art B&B room/rate details and early key return on 17 October; confirmed bike-storage policy
 - Bike transfer from Catania airport to Modica on 3 October
 - Monday Modica overnight, bike handoff and Tuesday Modica–Catania return transport
 - Train fallback capable of carrying two assembled bikes
