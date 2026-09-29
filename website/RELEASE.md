@@ -1,14 +1,22 @@
-# Booked couple stay release — 30 September 2026
+# Six Garmin GPX tracks release — 30 September 2026
 
 Live: [Sicily guide](https://sicily.apps.kibk.net) · [Stage 4](https://sicily.apps.kibk.net/#stage/4). Existing private access and disabled tracking are preserved. The current generated guide is in English; old source translations are historical, not deployed.
 
 ## Release identity
 
 - Platform: **linux/amd64**
-- Image tag: `20260930-urban-art-booked`
-- Image digest: `sha256:d8eb99ca40478697a1b15a314dfb31bf4fae0997d54b197a2b15db1d28efb5b5`
+- Image tag: `20260930-six-gpx`
+- Image digest: `sha256:e9b0db228a01fe082625dcc276544a9cc2e58e64bf321ae0ba1c6f51d3f70306`
 - Source: [guide/content.md](guide/content.md)
-- Source SHA-256: `b7e04e0cdfe48c0fd20a085460ca3c788301291e3830382a78b0eadea47cdf9e`
+- Source SHA-256: `1bfb59dd83b3eee37f779c02f3376a0471834193bb0751a94e912415ad48250f`
+
+## GPX update
+
+- Downloaded Garmin courses for stages **2, 3, 4, 6, 7 and 8** through the signed-in course export UI. Stage 4 matches the previously supplied file. Exact maps and downloads preserve all **26,832 points** and original GPX bytes.
+- Added a deterministic [six-file ZIP](https://sicily.apps.kibk.net/sicily-gpx-available.zip), with a manifest explicitly identifying missing stages **1 and 5**. Their supplied Garmin links show navigation but no course details/export controls, including after reloads and fresh tabs; the underlying cause is not confirmed.
+- Flagged Stage 2's current Garmin figures, **65.76 km / 1,334 m**, against Fausto's planned **71.36 km / 1,430 m**. Planned totals remain unchanged and labelled; ask Fausto to confirm the revision.
+- Checked Stage 8's public street start on Via Villini a Mare in Catania and public central Modica finish in Google Maps. The start is north of Stage 7's Duomo finish, so confirm the transfer to the course. No private home endpoint has been added. Other suggested stops remain candidates, not verified on-track stops.
+- [ROUTES.md](../ROUTES.md) provides public GitHub download links, provenance and remaining course-access gaps.
 
 ## Booking update
 
@@ -27,17 +35,18 @@ Live: [Sicily guide](https://sicily.apps.kibk.net) · [Stage 4](https://sicily.a
 ## Verified
 
 - `/healthz` returned `ok`; homepage returned HTTP 200.
-- Live HTML, CSS, JavaScript, route JSON, Leaflet assets and Stage 4 GPX are byte-for-byte identical to the built files.
+- Live HTML, CSS, JavaScript, route JSON, Leaflet assets, all six GPX files and ZIP are byte-for-byte identical to the built files.
 - Live `/source.md` matches the canonical Markdown and embedded SHA-256.
 - The booked-stay section was inspected in desktop and 390 px phone layouts, with no horizontal page overflow; the Maps link resolves to the correct business. Source checks enforce booked couple status, still-unbooked cycling night, removal of the active shortlist and unconfirmed price/early-checkout wording.
-- Stage 4 selection and direct-link reload were rechecked at 390 px; the map section opens 12 px below the header. The 29 September release also exercised all eight selections, browser Back, animation toggle and menu Escape. Operating-system reduced-motion support and print styles are implemented; print output was not physically tested.
-- The Stage 4 map retains every one of 5,507 GPX points. Download checksum matches the supplied Garmin export.
-- Stage 4 Cammarata and Mussomeli town pins are both about 2 m from a track point. Other regional stops are labelled as candidates awaiting their exact GPX.
+- All eight stage selections were tested at desktop and 390 px phone widths without horizontal page overflow: six show exact polylines/download links, while stages 1 and 5 show only town markers. The overview draws six tracks. Phone Stage 8 direct-link reload, browser Back and animation toggle were rechecked; live Stage 6 loads its exact 5,346-point track.
+- The ZIP was downloaded through the live browser and its checksum matched the built bundle (`a0166b0db2ee03e9cae35f56fc719d1ee142f6b0397c93c5cec04f1fc7f86431`). All individual GPX HTTP responses were byte-verified; the in-app browser did not save an individual GPX during the click test and blocked a direct GPX navigation. Use the verified ZIP if the embedded browser blocks individual files.
+- The earlier release exercised menu Escape. Operating-system reduced-motion support and print styles are implemented; print output was not physically tested.
+- Stage 4 Cammarata and Mussomeli town pins are both about 2 m from a track point. Other regional stops remain candidates until their route detours and opening hours are checked.
 - Hotel/pass/town destination identities were checked in Google Maps. Rinaldo's duplicate listing ambiguity is addressed with a specific place ID. See [MAP-LINKS.md](../MAP-LINKS.md).
 - `/api/dotwatcher` still returns **410**; no tracker request is made by the frontend. Deployment did not enable a public listener or change private DNS.
 
 ## Remaining work
 
-Only Stage 4 was supplied: two identical files with the same checksum. Import stages **1, 2, 3, 5, 6, 7 and 8** when their GPX exports are provided; confirm each course's endpoints, direction and privacy before publication. Do not draw guessed routes or replace Fausto's tracks with generic official variants.
+Import stages **1 and 5** when Fausto supplies accessible courses or GPX exports; confirm each course's endpoints, direction and privacy before publication. Confirm the Stage 2 revision before relying on the shorter export. Do not draw guessed routes or replace Fausto's tracks with generic official variants.
 
 Cycling finish-night booking, booked room/rate details and price basis, Monday overnight in Modica, Tuesday transport, early hotel departure/airport pickup, real train tickets, route conditions and operating hours retain the caveats in the itinerary. Prices are earlier quotes, not a new checkout quote or confirmation of the booked total.

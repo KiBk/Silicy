@@ -43,6 +43,8 @@ The earlier 117.9 km Modica–Catania ride, evening train and Palermo hotel are 
 
 **Divide total: 469.28 km / 9,394 m.** Figures now follow Fausto's table, supplied 29 September; [all eight course links](ROUTES.md). Optional warm-up adds ~50 km / 800 m. See [ACCOMMODATION.md](ACCOMMODATION.md) for addresses, map links and supplied prices. Confirm bed configuration, meals, cancellation terms and locked indoor bike storage separately. Suggested resupply towns still require comparison with the exact GPX and opening-hours checks.
 
+**GPX update, 30 September:** six exact exports are available for stages 2, 3, 4, 6, 7 and 8; stages 1 and 5 are unavailable in the current Garmin session. The totals above remain **planned figures**: Stage 2's current course is **65.76 km / 1,334 m**, versus 71.36 km / 1,430 m in Fausto's table. Confirm the change before using the shorter export. [GPX downloads and differences](ROUTES.md).
+
 ## 12 October — back to Modica
 
 Ride **Catania → Modica, 112.98 km / 1,426 m**, using [Fausto's southbound course](https://connect.garmin.com/app/course/510248637). This is the longest stage. Start early and agree food/water stops. Departure time and Monday overnight with Fausto still need confirmation. Do not reverse the old northbound GPX. **All eight stages: 582.26 km / 10,820 m.**

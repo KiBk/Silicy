@@ -9,6 +9,7 @@ import html
 import json
 import re
 import xml.etree.ElementTree as ET
+import zipfile
 from pathlib import Path
 
 
@@ -48,6 +49,15 @@ def main() -> None:
     assert len(re.findall(r'data-stage-panel="[1-8]"', page)) == 8, 'expected eight stage panels'
     route_data = json.loads((root / 'public/routes.json').read_text())
     assert len(route_data['routes']) == 8
+    assert {r['stage'] for r in route_data['routes'] if r['status'] == 'exact'} == {2,3,4,6,7,8}, 'expected six reviewed Garmin exports; stages 1 and 5 remain missing'
+    with zipfile.ZipFile(root/'public/sicily-gpx-available.zip') as bundle:
+        expected_names = {'README.txt'} | {Path(r['gpx']).name for r in route_data['routes'] if r['status'] == 'exact'}
+        assert set(bundle.namelist()) == expected_names, 'ZIP must contain exactly the available GPX files and manifest'
+        assert b'Missing stages: 1, 5.' in bundle.read('README.txt')
+        for route in route_data['routes']:
+            if route['status'] == 'exact':
+                assert bundle.read(Path(route['gpx']).name) == (root/'public'/route['gpx']).read_bytes(), 'ZIP changed GPX bytes'
+    assert '65.76 km / 1,334 m' in markdown and '71.36 km planned' in markdown, 'Stage 2 export mismatch must remain explicit'
     ns = {'g': 'http://www.topografix.com/GPX/1/1'}
     for route in route_data['routes']:
         assert f'/course/{route["course"]}' in markdown, 'Garmin course absent from source'

@@ -43,13 +43,13 @@ Then ride **Stage 1: Palermo → Gibellina, 77 km / 1,396 m climbing**, using Fa
 | Fri 16 Oct | Benedettini, Roman Catania, lava coast; pack early | Same Catania base |
 | Sat 17 Oct | Arrange ~03:30 transfer for 06:00 flight | Departure |
 
-Fausto's seven Divide stages total **469.28 km / 9,394 m climbing**. Including his **12 October Catania–Modica course: 582.26 km / 10,820 m across eight stages**. The optional warm-up adds about 50 km / 800 m. The old 5 October Modica–Catania ride and Palermo overnight are superseded. Tuesday 13 October's return transport remains undecided.
+Fausto's planned seven Divide stages total **469.28 km / 9,394 m climbing**. Including his **12 October Catania–Modica course: planned 582.26 km / 10,820 m across eight stages**. Stage 2's current Garmin export is shorter (**65.76 km / 1,334 m** instead of 71.36 km / 1,430 m); confirm that change with Fausto. The optional warm-up adds about 50 km / 800 m. The old 5 October Modica–Catania ride and Palermo overnight are superseded. Tuesday 13 October's return transport remains undecided.
 
 “Mondina” is interpreted as **Modica**. The existing 17 October departure is retained, making the couple stay four nights.
 
 ## Website and sharing
 
-Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The redesigned English guide is deployed with the revised itinerary, eight selectable stage cards, checked destination links and Stage 4's exact animated GPX map. The other seven tracks are visibly marked GPX pending.** See [the Stage 4 view](https://sicily.apps.kibk.net/#stage/4) and [release checks](website/RELEASE.md).
+Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The guide has eight selectable stage cards and exact GPX maps/downloads for stages 2, 3, 4, 6, 7 and 8. Stages 1 and 5 remain unavailable in the current Garmin session.** [Download the six-file ZIP](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip), or see [individual GPX/course links](ROUTES.md) and [release checks](website/RELEASE.md).
 
 The site's existing private/Tailscale access is preserved; the GitHub repository remains the public sharing surface. Live tracking remains disabled. The historical site/translations are retained in source but are not the current guide. A repository push does not itself deploy the hosted site.
 

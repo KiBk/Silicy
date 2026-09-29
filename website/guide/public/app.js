@@ -69,7 +69,7 @@
   async function init(){
     try{
       const response=await fetch(`/routes.json?v=${meta.assetVersion}`);if(!response.ok)throw Error('Route data unavailable');routes=(await response.json()).routes;
-      for(const r of routes){const link=$(`[data-gpx="${r.stage}"]`),note=$(`[data-track-note="${r.stage}"]`);note.textContent=r.status==='exact'?'Hotel link: last-mile destination.':'Stops: candidates until GPX checked.';if(r.status==='exact'){link.href=`/${r.gpx}`;link.hidden=false;}}
+      for(const r of routes){const link=$(`[data-gpx="${r.stage}"]`),note=$(`[data-track-note="${r.stage}"]`);note.textContent=r.status==='exact'?(r.stage===4?'Hotel link: last-mile destination.':'Stop links: candidates; check against this GPX.'):'Stops: candidates until GPX checked.';if(r.status==='exact'){link.href=`/${r.gpx}`;link.hidden=false;}}
       if(typeof L==='undefined')throw Error('Map library unavailable');
       map=L.map('stage-map',{zoomControl:false,dragging:false,scrollWheelZoom:false,doubleClickZoom:false,touchZoom:false,boxZoom:false,keyboard:false,zoomAnimation:false,fadeAnimation:false});
       const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'}).addTo(map);

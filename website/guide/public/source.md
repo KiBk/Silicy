@@ -1,9 +1,11 @@
 ---
 layout: landing
 eyebrow: Sicily · 3–17 October 2026
-summary: 5–12 October · 8 cycling stages · 582.26 km · 10,820 m climbing. Then Catania together, 13–17 October.
+summary: 5–12 October · 8 cycling stages · planned 582.26 km / 10,820 m. Then Catania together, 13–17 October.
 ---
 # Across Sicily, together.
+
+[Download 6 GPX files (ZIP)](https://sicily.apps.kibk.net/sicily-gpx-available.zip) — stages **2, 3, 4, 6, 7 and 8**. Stages **1 and 5** are not accessible in the current Garmin session. Stage 2's downloaded course differs from the plan; confirm with Fausto.
 
 ## The eight stages
 
@@ -27,7 +29,7 @@ Address: Via Pietro Novelli 13, Nuova Gibellina
 
 [Camporeale](https://www.google.com/maps/search/?api=1&query=Camporeale%20Palermo%20Italy) — possible resupply.
 
-[Garmin course](https://connect.garmin.com/app/course/513237884) — access permission needed.
+[Garmin course](https://connect.garmin.com/app/course/513237884) — no course details available in the current session.
 
 Train arrives 12:29. Early pass pickup arranged. Afternoon ride: carry lights.
 
@@ -35,9 +37,9 @@ Train arrives 12:29. Early pass pickup arranged. Afternoon ride: carry lights.
 
 Date: Tuesday 6 October 2026
 
-Distance: 71.36 km
+Distance: 71.36 km planned
 
-Climbing: 1,430 m
+Climbing: 1,430 m planned
 
 Stay: Booked · €70 supplied
 
@@ -51,7 +53,7 @@ Address: Vicolo Oddo 4, Sambuca di Sicilia
 
 [Garmin course](https://connect.garmin.com/app/course/510243655)
 
-Carry water; respect barriers at ruins.
+**Downloaded Garmin course: 65.76 km / 1,334 m, different from the planned figures above. Confirm with Fausto.** Carry water; respect barriers at ruins.
 
 ### 03 · Sambuca → Santo Stefano Quisquina
 
@@ -113,7 +115,7 @@ Address: Via Sant'Agata 108, Enna
 
 [Caltanissetta](https://www.google.com/maps/search/?api=1&query=Caltanissetta%20Italy) — possible resupply.
 
-[Garmin course](https://connect.garmin.com/app/course/510246958)
+[Garmin course](https://connect.garmin.com/app/course/510246958) — no course details available in the current session.
 
 Most climbing of the trip. Save energy for Enna.
 

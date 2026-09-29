@@ -35,13 +35,13 @@ def main() -> None:
     assert f'data-source-sha256="{digest}"' in page, "public page checksum mismatch"
     public = args.root.resolve() / 'public'
     assert page.encode() == (public/'index.html').read_bytes(), 'deployed HTML differs'
-    for asset in ['app.js','styles.css','routes.json','leaflet.js','leaflet.css']:
+    for asset in ['app.js','styles.css','routes.json','leaflet.js','leaflet.css','sicily-gpx-available.zip']:
         assert fetch(f'{base}/{asset}') == (public/asset).read_bytes(), f'deployed {asset} differs'
     for gpx in (public/'routes').glob('*.gpx'):
         assert fetch(f'{base}/routes/{gpx.name}') == gpx.read_bytes(), f'deployed {gpx.name} differs'
     print(f"ok: {base}/healthz")
     print(f"ok: public source fidelity sha256:{digest}")
-    print('ok: exact HTML, CSS, JavaScript, route JSON, Leaflet and GPX downloads')
+    print('ok: exact HTML, CSS, JavaScript, route JSON, Leaflet, GPX and ZIP downloads')
 
 
 if __name__ == "__main__":
