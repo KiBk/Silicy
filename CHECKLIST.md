@@ -1,22 +1,29 @@
 # Coordination checklist
 
-Use this file for the shared planning state. Replace `Open` only when the decision or booking has genuinely been confirmed. Do not commit booking codes, payment data, passport details, phone numbers, private addresses, or private tracker links.
+Updated **29 September 2026**. Confirmed below means reported by Kirill or supported by the private receipt; it does not imply that reservations were independently accessed. Never commit booking codes, payment/passport data, private contact details, Fausto's home address or private tracker links.
 
 | Status | Owner | When | Item | Completion evidence |
 |---|---|---|---|---|
-| Open | — | Before booking | Agree final route sequence and whether to keep the 4 October warm-up | Link to issue or pull request |
+| Confirmed | Kirill / Fausto | 29 Sep | Divide stages now 5–11 October; warm-up remains optional | Kirill's revised itinerary and hotel list |
 | Open | — | Early | Confirm how both bikes reach Catania and are collected on 3 October | Provider name and confirmation date |
-| Open | — | Early | Book bike-safe Modica accommodation for 3–5 October | Property name and confirmation date |
-| Open | — | Early | Book bike-safe Palermo accommodation for 5 October | Property name and confirmation date |
-| Open | — | Early | Book all seven Sicily Divide overnights | Property names and dates |
-| Open | — | Early | Book one central Catania base through departure | Property name and dates |
-| Open | — | Early | Decide bike shipping/storage after the 12 October finish | Method and handoff time |
+| Confirmed | Fausto | Nights 3 and 4 Oct | Stay at Fausto's place in Modica; no hotel needed | Kirill's confirmation, 29 Sep |
+| Superseded | — | 5 Oct | No Palermo overnight; train, passes and Stage 1 on Monday | Revised plan |
+| Confirmed | Fausto | Nights 5–10 Oct | Six bookings: Mille e una notte, Rinaldo, Casa Quisquina, Albergo Diffuso, Proserpina, Via Venezia | Kirill's hotel list; see ACCOMMODATION.md |
+| Open | Fausto | Before departure | Confirm booked room/bed setup, price basis, meals, bike storage and Montedoro building | Private confirmations; no codes here |
+| Open | Kirill / Fausto | 11–12 Oct | Book the Catania cyclists' finish night | Separate/shared quotes in ACCOMMODATION.md |
+| Booked; ticket check open | Fausto / Kirill | 5 Oct | RV 5468 07:34 + RV 5491 11:01, Modica → Palermo 12:29 | Receipt reviewed; obtain actual travel-valid tickets |
+| Confirmed arrangement | Fausto | 5 Oct after train | Early Divider's Pass handover at Genchi Extreme, Via Cavour 28, Palermo | Kirill's confirmation, 29 Sep; exact time kept privately |
+| Open | Kirill / Fausto | Before 5 Oct | Missed-connection / late Stage 1 transfer fallback; working lights | Seven-minute rail connection; afternoon 79 km stage |
+| Open | Kirill / Fausto | 12–13 Oct | Catania → Modica Monday, Modica overnight, return Catania Tuesday | Transport mode/time and Monday overnight still to confirm |
+| Open | Kirill | 13–17 Oct | Book couple base, four nights, €350–€550 total | CATANIA-STAY.md shortlist; confirm 03:30 key return |
+| Open | Kirill / Fausto | Before 13 Oct evening | Decide bike handoff/storage for Modica return and couple stay | Method and timing |
 | Open | — | Early | Reserve cancellable Etna plan for 15 October | Operator and cancellation deadline |
 | Open | — | 1–2 weeks before | Download current official Sicily Divide GPX and compare it with the website route | GPX version/date |
 | Open | — | 1 week before | Check forecast and route condition reports for every stage | Review date |
-| Open | — | 48–72 hours before | Confirm Catania–Palermo service, platform guidance, and assembled-bike carriage | Train number and review date |
+| Open | Fausto / Kirill | 48–72 hours before | Recheck Modica–Xirbi–Palermo services, seven-minute change and assembled-bike carriage | Train numbers, fallback and review date |
 | Open | — | Before riding | Test the consented tracking setup on both phones | Test date only |
 | Open | — | 16 October | Confirm 03:30 airport transfer | Provider and confirmation date |
+| Open | — | Before using the website as the current guide | Synchronize website source/translations and deploy the revised itinerary | This update changes Markdown only; live site still has the old plan |
 
 ## Packing and route readiness
 

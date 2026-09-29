@@ -1,6 +1,6 @@
 # Research and source links
 
-This is the evidence index behind the plan. It consolidates the links used by the website and the planning summary. The notes reflect the planning snapshot assembled on **22 July 2026** unless a later review date is added. Dynamic information must be checked again before relying on it.
+Evidence index updated **29 September 2026** for revised dates, rail documents, pass collection, hotel addresses and Catania availability. Route history and sightseeing ideas retain the **22 July** research baseline; this update is not a fresh audit of every route condition, attraction or Etna restriction.
 
 ## Primary route sources
 
@@ -12,7 +12,7 @@ This is the evidence index behind the plan. It consolidates the links used by th
 - [Stage 5: Montedoro to Enna](https://sicilydivide.it/tappe-e-traccia-sicily-divide/da-montedoro-a-enna-in-bici/)
 - [Stage 6: Enna to Regalbuto](https://sicilydivide.it/tappe-e-traccia-sicily-divide/da-enna-a-regalbuto-in-bici/)
 - [Stage 7: Regalbuto to Catania](https://sicilydivide.it/tappe-e-traccia-sicily-divide/da-regalbuto-a-catania-in-bici/)
-- [Fausto's original Modica–Catania GPX](website/modica-catania-fausto.gpx)
+- [Fausto's original Modica–Catania GPX](website/modica-catania-fausto.gpx) — historical asset; no longer the active 5 October route
 - [Suggested Modica–Scicli–Sampieri outline](https://www.google.com/maps/dir/?api=1&origin=Modica%2C%20Italy&destination=Modica%2C%20Italy&travelmode=bicycling&waypoints=Scicli%2C%20Italy%7CSampieri%2C%20Italy) — a discussion aid, not a checked GPX
 
 The official Sicily Divide pages and current GPX are authoritative. Distances in [`PLAN.md`](PLAN.md) are stage-level planning figures; navigation should use freshly downloaded official files.
@@ -20,9 +20,9 @@ The official Sicily Divide pages and current GPX are authoritative. Distances in
 ## Train and bicycle transport
 
 - [Trenitalia regional information for Sicily](https://www.trenitalia.com/it/regionale/sicilia/informazioni-utili-sicilia.html)
-- [RFI Catania departures board](https://prm.rfi.it/qo_prm/QO_Partenze_SiPMR.aspx?Id=959&alle=23.59&dalle=17.32)
+- Private Trenitalia receipt issued 28 September: **5 October RV 5468, Modica 07:34 → Caltanissetta Xirbi 10:54; RV 5491, 11:01 → Palermo Centrale 12:29**. Seven-minute connection. €21 passenger fare and €0 bike supplement shown. The receipt states **NON VALIDO PER VIAGGIARE**: actual travel-valid tickets still need to be obtained/saved. It does not prove reserved bicycle capacity. The PDF, purchaser details and codes are deliberately excluded from this public repository.
 
-The planning snapshot identified direct regional train **R 5519**, 17:32–20:29 from Catania Centrale to Palermo Centrale, with bicycle carriage in the planned timetable. This is a candidate, not a confirmed October service. Recheck the actual date, any engineering changes or replacement bus, and bicycle symbols 48–72 hours before travel.
+The old evening Catania–Palermo candidate is superseded. Recheck the two booked services and any engineering/replacement-bus changes 48–72 hours before departure. No transport on 12 or 13 October has been verified or booked by this research.
 
 Questions to resolve with the operator if the published symbols are unclear:
 
@@ -30,6 +30,16 @@ Questions to resolve with the operator if the published symbols are unclear:
 - Is reservation required or possible?
 - Where should riders wait on the platform?
 - Does any segment use a replacement bus?
+
+## Divider's Pass collection
+
+The supplied Sicily Divide email dated 28 September identifies **Genchi Extreme, Via Cavour 28, Palermo**. [Official shop contact page](https://genchiextreme.com/contatti/) lists Monday **16:00–20:00**. On 29 September Kirill confirmed Fausto has arranged early collection after the train. The email itself does not specify that time; retain the private handover details. [Map](https://www.google.com/maps/search/?api=1&query=Genchi%20Extreme%2C%20Via%20Cavour%2028%2C%20Palermo).
+
+## Accommodation evidence
+
+- [ACCOMMODATION.md](ACCOMMODATION.md): six user-confirmed bookings, supplied amounts (EUR assumed; price basis unspecified), checked business addresses and exact-date Booking.com alternatives for 11–12 October. Each property has a source link.
+- [CATANIA-STAY.md](CATANIA-STAY.md): live Booking.com offers for **13–17 October, two adults, four nights**, EUR, not signed in. Direct property pages checked for prices, dates, room type, cancellation and arrival/departure windows on 29 September. These are not Airbnb quotes and are not bookings.
+- No messages were sent to properties. Secure bicycle storage, special early checkout and private arrangements were not independently confirmed. Room rates and availability are volatile.
 
 ## Catania, Etna, and coast
 
@@ -50,9 +60,9 @@ The public tracker is designed to expose only approved display names and delayed
 
 ## Research gaps
 
-- Accommodation shortlist and confirmed secure bike-storage policy for every night
+- Selection of Catania accommodation on 11–12 and 13–17 October, plus confirmed bike-storage policy
 - Bike transfer from Catania airport to Modica on 3 October
-- Bike handoff/shipping after arrival in Catania on 12–13 October
+- Bike handoff and return transport Catania–Modica–Catania on 12–13 October
 - Train fallback capable of carrying two assembled bikes
 - Current Etna operator shortlist, cancellation rules, and access conditions
 - Food/opening-hours checks for small towns and Sunday 11 October

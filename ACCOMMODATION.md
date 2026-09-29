@@ -1,168 +1,48 @@
-# Cycling accommodation shortlist
+# Cycling accommodation — 5–12 October 2026
 
-Booking.com snapshot: **30 August 2026** for the cycling accommodation from **5–13 October 2026**.
+Updated **29 September 2026**. Fausto booked six nights. Only **Catania, Sunday 11 → Monday 12 October**, remains unbooked. Modica is excluded; the couple stay is separate in [CATANIA-STAY.md](CATANIA-STAY.md).
 
-This table intentionally excludes Modica, where we will stay at Fausto's place, and the Catania couple stay from 13 October onward. The final Catania row is only for the cyclists' night after finishing the Sicily Divide.
+## Booked stays and navigation
 
-## How to read the prices
+Amounts are copied from Kirill's message and **assumed to be euros**. Per-person versus per-room basis, taxes, breakfast and separate/shared configuration were not specified. These are not new Booking.com quotes. The six amounts sum to **€354**, not a verified total cost for both riders.
 
-- **Separate:** two private rooms for Kirill and Fausto.
-- **Shared:** one private room for two adults; request two separate beds where the listing is not explicitly a twin.
-- Every figure is the **total for two adults for the complete one-night stay**, shown by Booking.com in NOK with taxes and fees included at the time of research.
-- Prices and availability can change. Misleading two-room search results that returned only one apartment or one room were excluded.
-- Booking.com availability does **not** prove secure bicycle storage. Obtain written confirmation of locked indoor storage for two assembled bicycles before paying.
+| Check-in → out | Finish | Booked by Fausto | Supplied amount | Address / navigation |
+|---|---|---|---:|---|
+| 5 → 6 Oct | Gibellina | **B&B Mille e una notte** | €69 | Via Pietro Novelli 13, 91024 Gibellina · [Map](https://www.google.com/maps/search/?api=1&query=Mille%20e%20Una%20Notte%2C%20Via%20Pietro%20Novelli%2013%2C%20Gibellina) |
+| 6 → 7 Oct | Sambuca di Sicilia | **Rinaldo Holiday Home** | €70 | Vicolo Oddo 4, 92017 Sambuca di Sicilia · [Map](https://www.google.com/maps/search/?api=1&query=Rinaldo%20Holiday%20Home%2C%20Vicolo%20Oddo%204%2C%20Sambuca%20di%20Sicilia) |
+| 7 → 8 Oct | Santo Stefano Quisquina | **Casa Quisquina** | €60 | Via Palma 50, 92020 Santo Stefano Quisquina · [Map](https://www.google.com/maps/search/?api=1&query=Casa%20Quisquina%2C%20Via%20Palma%2050%2C%20Santo%20Stefano%20Quisquina) |
+| 8 → 9 Oct | Montedoro | **Albergo Diffuso** | €45 | Main listed site: Via Flaminia 1, 93010 Montedoro · [Map](https://www.google.com/maps/search/?api=1&query=Albergo%20Diffuso%2C%20Via%20Flaminia%201%2C%20Montedoro). Confirm assigned building. |
+| 9 → 10 Oct | Enna | **B&B Proserpina** | €60 | Piazza Scelfo, corner Via Sant'Agata 108, 94100 Enna · [Map](https://www.google.com/maps/search/?api=1&query=Proserpina%2C%20Via%20Sant%27Agata%20108%2C%20Enna) |
+| 10 → 11 Oct | Regalbuto | **B&B Via Venezia** | €50 | Via Venezia 10, 94017 Regalbuto · [Map](https://www.google.com/maps/search/?api=1&query=Bed%20%26%20Breakfast%20Via%20Venezia%2010%2C%20Regalbuto) |
+| 11 → 12 Oct | Catania | **Not booked** | — | Options below; confirm indoor bicycle storage |
 
-## Night map
+Addresses checked against property/Booking.com pages on 29 September. Albergo Diffuso has several buildings: Via Flaminia 1 is the main listed site, not proof of the assigned unit; its operator also lists Terrae Siciliane at Largo Roma 12 and separate holiday homes.
 
-Prices in each candidate cell are **two private rooms / one shared room**.
+## Missing Catania night — 11–12 October
 
-| Check-in | Check-out | Base | Preferred candidate (separate/shared) | Backup (separate/shared) |
-|---|---|---|---|---|
-| 5 Oct | 6 Oct | Palermo | Soste Normanne (`NOK 2,143 / NOK 1,229`) | Le Cinque Stanze Palermo Room&Breakfast (`NOK 1,748 / NOK 968`) |
-| 6 Oct | 7 Oct | Gibellina | Mille e Una Notte (`NOK 1,447 / NOK 816`) | B&B Terre del Cretto (`NOK 1,674 / NOK 878`) |
-| 7 Oct | 8 Oct | Sambuca di Sicilia | Rooms AL-Zabut (`NOK 1,468 / NOK 925`) | Antico Frantoio Rooms (`NOK 807 / NOK 757`) |
-| 8 Oct | 9 Oct | Santo Stefano Quisquina | Affittacamere Casa Quisquina (`NOK 1,305 / NOK 707`) | Ospitalità Melìa (`NOK 1,149 / NOK 731`) |
-| 9 Oct | 10 Oct | Montedoro area | Sicily Bike di Fina Rosario (`NOK 971 / NOK 647`) | B&B Troisi (`NOK 870 / NOK 653`) |
-| 10 Oct | 11 Oct | Enna | WelcHome – guest accommodation (`NOK 1,108 / NOK 663`) | Locanda Susuiusu (`NOK 1,856 / NOK 1,018`) |
-| 11 Oct | 12 Oct | Regalbuto | Bed & Breakfast Via Venezia (`NOK 761 / NOK 598`) | La Dolce Vita (`NOK 1,088 / NOK 870`) |
-| 12 Oct | 13 Oct | Catania | Art & Jazz Hotel (`NOK 1,686 / NOK 1,153`) | Etna Suite Group (`NOK 1,262 / NOK 958`) |
+Booking.com snapshot **29 September 2026**, two adults, one night, EUR, taxes/fees included as displayed. **Separate** means two actual private rooms, each for one adult. **Shared** means one room for two. Options are not bookings; prices can change.
 
-## 5–6 October — Palermo
+| Candidate | Separate / shared total | Room and rate details |
+|---|---:|---|
+| **Preferred for twin beds: Hotel Manganelli Palace** | **€275 / €164** | Two Basic Rooms / one Standard Double or Twin (request twins). Breakfast; free cancellation before 9 Oct; no prepayment displayed. |
+| **Lower-price backup: Etna Suite Group** | **€211 / €127** | Classic Suite + Deluxe Triple as two units / one Deluxe Triple with queen + sofa bed. Breakfast; free cancellation before 6 Oct; no prepayment displayed. Shared is **not a confirmed twin room**. |
 
-Arrival is planned around 20:29 at Palermo Centrale. Confirm late check-in and bicycle access if the train is delayed.
+Secure bike storage remains unverified for both. Art & Jazz Hotel, the old preferred choice, showed no Booking.com availability for the corrected dates.
 
-### Preferred: Soste Normanne
+### Direct links
 
-- **Separate:** NOK 2,143 for two rooms.
-- **Shared:** NOK 1,229 for a Deluxe Double or Twin room; breakfast, free cancellation, and no prepayment were displayed.
-- **Why first:** central location, strong guest score, and a twin-capable shared-room listing.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/soste-normanne.html?checkin=2026-10-05&checkout=2026-10-06&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/soste-normanne.html?checkin=2026-10-05&checkout=2026-10-06&group_adults=2&no_rooms=1&group_children=0)
+- **Manganelli Palace:** Via Recalcaccia 2, 95131 Catania · [Map](https://www.google.com/maps/search/?api=1&query=Hotel%20Manganelli%20Palace%2C%20Via%20Recalcaccia%202%2C%20Catania) · [two rooms](https://www.booking.com/hotel/it/manganelli-palace.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=2&group_children=0&selected_currency=EUR) · [shared](https://www.booking.com/hotel/it/manganelli-palace.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR)
+- **Etna Suite Group:** Via Etnea 290, 95131 Catania · [Map](https://www.google.com/maps/search/?api=1&query=Etna%20Suite%20Group%2C%20Via%20Etnea%20290%2C%20Catania) · [two rooms](https://www.booking.com/hotel/it/etna-suite-rooms.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=2&group_children=0&selected_currency=EUR) · [shared](https://www.booking.com/hotel/it/etna-suite-rooms.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR)
 
-### Backup: Le Cinque Stanze Palermo Room&Breakfast
+## Booked-property sources
 
-- **Separate:** NOK 1,748 for two rooms.
-- **Shared:** NOK 968 for one room; breakfast was displayed.
-- **Why backup:** about 250 m from the displayed centre and substantially cheaper, but reconfirm cancellation terms.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/le-cinque-stanze-palermo-room-amp-breakfast-palermo.html?checkin=2026-10-05&checkout=2026-10-06&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/le-cinque-stanze-palermo-room-amp-breakfast-palermo.html?checkin=2026-10-05&checkout=2026-10-06&group_adults=2&no_rooms=1&group_children=0)
+- **Mille e una notte:** [official address](https://www.1000eunanotte.com/it/contatti) · [Booking.com](https://www.booking.com/hotel/it/mille-e-una-notte.html)
+- **Rinaldo Holiday Home:** [Booking.com listing/address](https://www.booking.com/hotel/it/rinaldo-holiday-home-sambuca-di-sicilia.html)
+- **Casa Quisquina:** [official site/address](https://www.bnbcasaquisquina.it/) · [Booking.com](https://www.booking.com/hotel/it/casa-s-stefano-qusquina.html)
+- **Albergo Diffuso:** [operator's building list and addresses](https://www.lecupoletterosse.com/albergo-diffuso). No specific Booking.com listing verified; do not substitute a nearby property.
+- **Proserpina:** [Booking.com listing/address](https://www.booking.com/hotel/it/proserpina.html)
+- **Via Venezia:** [Booking.com listing/address](https://www.booking.com/hotel/it/bed-amp-breakfast-via-venezia.en-gb.html)
 
-## 6–7 October — Gibellina
+## Confirm privately
 
-### Preferred: Mille e Una Notte
-
-- **Separate:** NOK 1,447 for two rooms.
-- **Shared:** NOK 816 for one double room.
-- **Why first:** central Nuova Gibellina location and an established [Sicily Divide Bike Hotel](https://sicilydivide.it/en/sicily-divide-bike-hotels/); reconfirm the exact locked-storage arrangement.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/mille-e-una-notte.html?checkin=2026-10-06&checkout=2026-10-07&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/mille-e-una-notte.html?checkin=2026-10-06&checkout=2026-10-07&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: B&B Terre del Cretto
-
-- **Separate:** NOK 1,674 for two rooms.
-- **Shared:** NOK 878 for a twin room.
-- **Why backup:** 300 m from the displayed centre and the shared result explicitly showed two twin beds.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/b-amp-b-terre-del-cretto.html?checkin=2026-10-06&checkout=2026-10-07&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/b-amp-b-terre-del-cretto.html?checkin=2026-10-06&checkout=2026-10-07&group_adults=2&no_rooms=1&group_children=0)
-
-## 7–8 October — Sambuca di Sicilia
-
-### Preferred: Rooms AL-Zabut
-
-- **Separate:** NOK 1,468 for two rooms, including a single room.
-- **Shared:** NOK 925 for a Superior Double room; breakfast and free cancellation were displayed.
-- **Why first:** central, excellent displayed location score, and genuine two-room inventory.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/al-zabut-75-sambuca-di-sicilia.html?checkin=2026-10-07&checkout=2026-10-08&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/al-zabut-75-sambuca-di-sicilia.html?checkin=2026-10-07&checkout=2026-10-08&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: Antico Frantoio Rooms
-
-- **Separate:** NOK 807 for two single rooms.
-- **Shared:** NOK 757 for one room; breakfast and free cancellation were displayed.
-- **Why backup:** exceptional two-room value, though it is about 1.3 km from the displayed centre.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/b-amp-b-antico-frantoio.html?checkin=2026-10-07&checkout=2026-10-08&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/b-amp-b-antico-frantoio.html?checkin=2026-10-07&checkout=2026-10-08&group_adults=2&no_rooms=1&group_children=0)
-
-## 8–9 October — Santo Stefano Quisquina
-
-### Preferred: Affittacamere Casa Quisquina
-
-- **Separate:** NOK 1,305 for two rooms.
-- **Shared:** NOK 707 for a twin room with two twin beds.
-- **Why first:** central, explicitly twin-capable, and listed by the [Sicily Divide Bike Hotels directory](https://sicilydivide.it/en/sicily-divide-bike-hotels/).
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/casa-s-stefano-qusquina.html?checkin=2026-10-08&checkout=2026-10-09&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/casa-s-stefano-qusquina.html?checkin=2026-10-08&checkout=2026-10-09&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: Ospitalità Melìa
-
-- **Separate:** NOK 1,149 for two rooms.
-- **Shared:** NOK 731 for one room with four twin beds.
-- **Why backup:** central and free cancellation was displayed, but it has fewer Booking.com reviews.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/ospitalita-melia.html?checkin=2026-10-08&checkout=2026-10-09&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/ospitalita-melia.html?checkin=2026-10-08&checkout=2026-10-09&group_adults=2&no_rooms=1&group_children=0)
-
-## 9–10 October — Montedoro area
-
-Booking.com did not show a qualifying property in Montedoro itself with both one-room and genuine two-room inventory. Check the GPX and transfer logistics before booking either nearby option.
-
-### Preferred: Sicily Bike di Fina Rosario, Serradifalco
-
-- **Separate:** NOK 971 for two rooms.
-- **Shared:** NOK 647 for a double-or-twin room with two twin beds; breakfast was displayed.
-- **Trade-off:** approximately 7.8 km from Montedoro in Booking.com's result.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/sicily-bike.html?checkin=2026-10-09&checkout=2026-10-10&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/sicily-bike.html?checkin=2026-10-09&checkout=2026-10-10&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: B&B Troisi, Racalmuto
-
-- **Separate:** NOK 870 for two rooms.
-- **Shared:** NOK 653 for one double-or-twin room; breakfast, free cancellation, and no prepayment were displayed.
-- **Trade-off:** approximately 8.3 km from Montedoro in Booking.com's result.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/b-amp-b-troisi.html?checkin=2026-10-09&checkout=2026-10-10&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/b-amp-b-troisi.html?checkin=2026-10-09&checkout=2026-10-10&group_adults=2&no_rooms=1&group_children=0)
-
-## 10–11 October — Enna
-
-### Preferred: WelcHome – guest accommodation
-
-- **Separate:** NOK 1,108 for two rooms.
-- **Shared:** NOK 663 for a double-or-twin room.
-- **Why first:** central, strong value, and the shared room explicitly allows a twin configuration.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/b-amp-b-welc-h-ome.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/b-amp-b-welc-h-ome.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: Locanda Susuiusu
-
-- **Separate:** NOK 1,856 for two rooms.
-- **Shared:** NOK 1,018 for one room; breakfast, free cancellation, and no prepayment were displayed.
-- **Why backup:** central and exceptionally well reviewed, but more expensive.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/locanda-susuiusu.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/locanda-susuiusu.html?checkin=2026-10-10&checkout=2026-10-11&group_adults=2&no_rooms=1&group_children=0)
-
-## 11–12 October — Regalbuto
-
-### Preferred: Bed & Breakfast Via Venezia
-
-- **Separate:** NOK 761 for two rooms.
-- **Shared:** NOK 598 for a double-or-twin room with two twin beds; breakfast and free cancellation were displayed.
-- **Why first:** 100 m from the displayed centre, excellent reviews, and the clearest value for either arrangement.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/bed-amp-breakfast-via-venezia.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/bed-amp-breakfast-via-venezia.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: La Dolce Vita
-
-- **Separate:** NOK 1,088 for two rooms.
-- **Shared:** NOK 870 for one double-or-twin room.
-- **Why backup:** breakfast and free cancellation were displayed, and the property is cycling-oriented, but it is about 1.9 km from the displayed centre.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/la-dolce-vita-regalbuto.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/la-dolce-vita-regalbuto.html?checkin=2026-10-11&checkout=2026-10-12&group_adults=2&no_rooms=1&group_children=0)
-
-## 12–13 October — Catania, final cycling night
-
-This is only the cyclists' finish-night comparison. The girlfriend stay beginning on 13 October is outside this file.
-
-### Preferred: Art & Jazz Hotel
-
-- **Separate:** NOK 1,686 for two actual single rooms.
-- **Shared:** NOK 1,153 for one double room; breakfast, free cancellation, and no prepayment were displayed.
-- **Why first:** conventional hotel operation, near Catania Centrale, and the separate search returned genuine single rooms.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/art-amp-jazz.html?checkin=2026-10-12&checkout=2026-10-13&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/art-amp-jazz.html?checkin=2026-10-12&checkout=2026-10-13&group_adults=2&no_rooms=1&group_children=0)
-
-### Backup: Etna Suite Group
-
-- **Separate:** NOK 1,262 for two rooms.
-- **Shared:** NOK 958 for one Standard Double room; breakfast was displayed.
-- **Why backup:** central and cheaper, but ask explicitly about bringing and storing two assembled bicycles.
-- **Booking.com:** [two rooms](https://www.booking.com/hotel/it/etna-suite-rooms.html?checkin=2026-10-12&checkout=2026-10-13&group_adults=2&no_rooms=2&group_children=0) · [one shared room](https://www.booking.com/hotel/it/etna-suite-rooms.html?checkin=2026-10-12&checkout=2026-10-13&group_adults=2&no_rooms=1&group_children=0)
-
-## Message to send before booking
-
-> Hello, we are two cyclists travelling with two assembled gravel bikes. Please confirm availability for the dates shown, both for (A) two private rooms and (B) one private twin room with two separate beds. We need locked indoor bicycle storage inaccessible to the public and an early breakfast or packed breakfast. Please quote the final total including taxes, state the cancellation deadline, and confirm the bed arrangement. We will not leave the bikes outdoors. Thank you.
-
-When a property is selected, record only its name, dates, room arrangement, and confirmation date in [`CHECKLIST.md`](CHECKLIST.md). Keep booking codes and personal details out of this public repository.
+Room/bed setup, price basis, taxes, breakfast, payment/cancellation, locked indoor bicycle storage, the Monday afternoon arrival window and the assigned Montedoro building all need checking with Fausto/properties. Keep reservation codes private. The August shortlist is superseded; earlier versions remain in Git history.
