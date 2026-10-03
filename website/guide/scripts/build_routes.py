@@ -50,10 +50,10 @@ def main():
     (ROOT / 'public' / 'routes.json').write_text(json.dumps({'routes': routes}, separators=(',', ':'))+'\n')
     available = [r for r in routes if r['status'] == 'exact']
     missing = ', '.join(str(r['stage']) for r in routes if r['status'] == 'missing')
-    manifest = f"Fausto's Sicily courses, downloaded from Garmin 30 September 2026.\nAvailable stages: {', '.join(str(r['stage']) for r in available)}.\nMissing stages: {missing or 'none'}.\nStage 2 currently shows 65.76 km / 1,334 m on Garmin, versus 71.36 km / 1,430 m in the earlier plan; confirm with Fausto.\nGPX files retain all exported points unchanged. Use offline navigation and check road conditions.\n"
+    manifest = f"Fausto's Sicily courses. Stage 1 supplied 3 October 2026; other exports checked 30 September 2026.\nAvailable stages: {', '.join(str(r['stage']) for r in available)}.\nMissing stages: {missing or 'none'}.\nStage 2 showed 65.76 km / 1,334 m on Garmin on 30 September, versus 71.36 km / 1,430 m in the earlier plan; confirm with Fausto.\nGPX files retain all exported points unchanged. Use offline navigation and check road conditions.\n"
     with zipfile.ZipFile(ROOT / 'public' / 'sicily-gpx-available.zip', 'w', compression=zipfile.ZIP_DEFLATED) as bundle:
         for filename, raw in [('README.txt', manifest.encode())] + [(Path(r['gpx']).name, (ROOT/'public'/r['gpx']).read_bytes()) for r in available]:
-            item = zipfile.ZipInfo(filename, (2026, 9, 30, 0, 0, 0))
+            item = zipfile.ZipInfo(filename, (2026, 10, 3, 0, 0, 0))
             item.compress_type = zipfile.ZIP_DEFLATED
             bundle.writestr(item, raw)
 

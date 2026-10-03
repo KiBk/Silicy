@@ -15,6 +15,7 @@ render:
 
 check: render
 	node --check scripts/render.mjs
+	node --check scripts/render_guides.mjs
 	node --check public/app.js
 	python3 scripts/check_site.py --root .
 

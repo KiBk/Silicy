@@ -1,5 +1,7 @@
 # Google Maps destination audit
 
+**3 October update:** the new stage-guide sight links, ambiguity fixes and access caveats are recorded in [PLACES.md](PLACES.md). The earlier overnight/pass audit below remains unchanged.
+
 Checked **29 September 2026** in Google Maps, with final Rinaldo/Modica checks around **21:00 UTC**. This verifies the destination identity, not routing, business hours, drinkable water, availability or route safety. Exact last-mile detours require the GPX and local judgement.
 
 ## Overnight and pass links

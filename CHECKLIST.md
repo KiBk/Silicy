@@ -19,13 +19,13 @@ Updated **30 September 2026**. Confirmed below means reported by Kirill or suppo
 | Open | Kirill | Before arrival | Advise Agnese of arrival; confirm booked rate details, breakfast and ~03:30 key return | CATANIA-STAY.md; early departure not yet agreed |
 | Open | Kirill / Fausto | Before 13 Oct evening | Decide bike handoff/storage for Modica return and couple stay | Method and timing |
 | Open | — | Early | Reserve cancellable Etna plan for 15 October | Operator and cancellation deadline |
-| Partial: 6/8 | Kirill / Fausto | Before departure | Import Fausto's exact eight Garmin GPX files, not generic official variants | Stages 2, 3, 4, 6, 7 and 8 imported; 1 and 5 show no details/export controls in current Garmin session; see ROUTES.md |
+| Partial: 7/8 | Kirill / Fausto | Before departure | Import Fausto's exact eight Garmin GPX files, not generic official variants | Stage 1 supplied 3 October; only Stage 5 (Montedoro → Enna) still missing; see ROUTES.md |
 | Open | Fausto / Kirill | Before Stage 2 | Confirm Stage 2 course revision | Current Garmin 65.76 km / 1,334 m; earlier table 71.36 km / 1,430 m |
 | Open | — | 1 week before | Check forecast and route condition reports for every stage | Review date |
 | Open | Fausto / Kirill | 48–72 hours before | Recheck Modica–Xirbi–Palermo services, seven-minute change and assembled-bike carriage | Train numbers, fallback and review date |
 | Disabled | — | Current deployment | Live tracking remains disabled; no position feed is used | Do not re-enable as part of a website update |
 | Open | — | 16 October | Confirm 03:30 airport transfer | Provider and confirmation date |
-| Deployed; route imports partial | — | 30 September | English website with eight stage cards, six exact GPX maps and ZIP download | Stages 1 and 5 still needed; historical translations not synchronized |
+| Route imports partial | — | 3 October | English website with eight stage cards, seven exact GPX maps, ZIP and eight place guides | Stage 5 still needed; see website/RELEASE.md for deployment checks; historical translations not synchronized |
 
 ## Packing and route readiness
 

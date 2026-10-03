@@ -39,9 +39,12 @@ def main() -> None:
         assert fetch(f'{base}/{asset}') == (public/asset).read_bytes(), f'deployed {asset} differs'
     for gpx in (public/'routes').glob('*.gpx'):
         assert fetch(f'{base}/routes/{gpx.name}') == gpx.read_bytes(), f'deployed {gpx.name} differs'
+    for guide in (public/'stages').rglob('index.html'):
+        path = guide.parent.relative_to(public).as_posix() + '/'
+        assert fetch(f'{base}/{path}') == guide.read_bytes(), f'deployed {path} differs'
     print(f"ok: {base}/healthz")
     print(f"ok: public source fidelity sha256:{digest}")
-    print('ok: exact HTML, CSS, JavaScript, route JSON, Leaflet, GPX and ZIP downloads')
+    print('ok: exact HTML, CSS, JavaScript, route JSON, Leaflet, GPX, ZIP and all nine guide pages')
 
 
 if __name__ == "__main__":

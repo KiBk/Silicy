@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
 import { basename, dirname, resolve } from "node:path";
 import { marked } from "./vendor/marked.esm.js";
+import { renderGuides } from './render_guides.mjs';
 
 function argumentsMap(argv) {
   const result = {};
@@ -97,9 +98,11 @@ const renderMarkdown = value => marked.parse(value || "");
 const stageSection = sections[0];
 const stageMatches = [...stageSection.markdown.matchAll(/^### (\d{2}) · (.+)$/gm)];
 const stages = stageMatches.map((match, index) => {
-  const text = stageSection.markdown.slice(match.index + match[0].length, stageMatches[index+1]?.index ?? stageSection.markdown.length).trim();
+  const block = stageSection.markdown.slice(match.index + match[0].length, stageMatches[index+1]?.index ?? stageSection.markdown.length).trim();
+  const [text, guide] = block.split('\n#### Along the stage\n');
+  if (!guide) throw Error(`Missing guide for stage ${match[1]}`);
   const field = name => text.match(new RegExp(`^${name}: (.+)$`, 'm'))?.[1] || '';
-  return {number: Number(match[1]), title: match[2], date: field('Date'), distance: field('Distance'), climbing: field('Climbing'), text};
+  return {number: Number(match[1]), title: match[2], date: field('Date'), distance: field('Distance'), climbing: field('Climbing'), text: text.trim(), guide: guide.trim()};
 });
 if (stages.length !== 8) throw new Error('Expected eight Markdown stage cards');
 const routeData = JSON.parse(await readFile(resolve('public/routes.json'), 'utf8'));
@@ -112,7 +115,7 @@ const stagePanels = stages.map(s => {
     const type = /^(Date|Distance|Climbing): /.test(p) ? 'stage-fact' : /^Stay: /.test(p) ? 'stage-stay' : /^Address: /.test(p) ? 'stage-address' : /^\[Finish \/ /.test(p) ? 'finish-link' : /^\[Garmin/.test(p) ? 'course-link' : /^\[/.test(p) ? 'stop-link' : 'stage-note';
     return `<div class="${type}">${renderMarkdown(p)}</div>`;
   }).join('');
-  return `<article class="stage-panel" id="stage-${s.number}" data-stage-panel="${s.number}" hidden aria-labelledby="stage-heading-${s.number}"><p class="section-kicker">Stage ${String(s.number).padStart(2,'0')}</p><h3 id="stage-heading-${s.number}">${escapeHtml(s.title)}</h3>${rendered}<p class="track-note" data-track-note="${s.number}"></p><a class="gpx-download" data-gpx="${s.number}" hidden download>Download GPX ↓</a></article>`;
+  return `<article class="stage-panel" id="stage-${s.number}" data-stage-panel="${s.number}" hidden aria-labelledby="stage-heading-${s.number}"><p class="section-kicker">Stage ${String(s.number).padStart(2,'0')}</p><h3 id="stage-heading-${s.number}">${escapeHtml(s.title)}</h3><a class="places-link" href="/stages/${s.number}/">Places along this stage <span aria-hidden="true">→</span></a>${rendered}<p class="track-note" data-track-note="${s.number}"></p><a class="gpx-download" data-gpx="${s.number}" hidden download>Download GPX ↓</a></article>`;
 }).join('');
 const explorerHtml = `<section class="route-explorer" id="${stageSection.id}" aria-labelledby="explorer-title">
   <div class="explorer-heading"><h2 id="explorer-title">${escapeHtml(stageSection.title)}</h2><p>Select a stage for its map and stops.</p></div>
@@ -122,7 +125,7 @@ const explorerHtml = `<section class="route-explorer" id="${stageSection.id}" ar
   <aside class="stage-details" aria-label="Selected stage information"><div id="overview-panel"><p class="section-kicker">5–12 October</p><h3>Palermo → Catania<br>→ Modica</h3><div class="overview-stats"><div><strong>${stages.reduce((sum,s)=>sum+parseFloat(s.distance),0).toFixed(2)}</strong><span>kilometres planned</span></div><div><strong>${stages.reduce((sum,s)=>sum+parseInt(s.climbing.replaceAll(',','')),0).toLocaleString('en')}</strong><span>climbing planned (m)</span></div></div><p>Six cycling stays booked. 11 October still to book.</p><p class="overview-warning">${ready}/8 exact GPX tracks imported. Other maps: town markers only.</p><a class="text-link" href="#train-and-pass-pickup">Monday's train & pass pickup ↗</a></div>${stagePanels}</aside></div>
   <nav class="stage-rail" aria-label="Choose cycling stage">${stageButtons}</nav>
   <div class="stage-navigation"><button type="button" id="previous">← Previous</button><p id="selection-summary" aria-live="polite">Choose one of the eight stages</p><button type="button" id="next">Next →</button></div>
-  <noscript><p>Enable JavaScript for the stage map. All stage details follow.</p><article class="markdown-body">${renderMarkdown(stageSection.markdown)}</article></noscript>
+  <noscript><p>Enable JavaScript for the stage map. <a href="/stages/">Read all stage guides</a>.</p><article class="markdown-body">${renderMarkdown(stages.map(s=>`### ${s.title}\n\n${s.text}`).join('\n\n'))}</article></noscript>
 </section>`;
 const introHtml = intro ? `<section class="intro-band" aria-label="Plan context"><div class="intro-inner markdown-body">${renderMarkdown(intro)}</div></section>` : "";
 const sectionHtml = sections.slice(1).map((section, index) => `<section class="landing-section tone-${index % 3}" id="${section.id}" data-page-section>
@@ -143,7 +146,7 @@ const mapHtml = mapAsset ? `<section class="map-section" id="route-map" data-pag
   <div class="route-map" data-route-map data-map-src="${escapeHtml(basename(mapAsset))}" aria-label="Interactive map of the total journey"></div>
   <noscript><p class="map-fallback">JavaScript is required for the interactive route map.</p></noscript>
 </section>` : "";
-const siteJson = JSON.stringify({ title, summary, slug: site.slug, digest, assetVersion, generatedAt, layout, sections: navItems, stages: stages.map(({text,...stage})=>stage) }).replaceAll("<", "\\u003c");
+const siteJson = JSON.stringify({ title, summary, slug: site.slug, digest, assetVersion, generatedAt, layout, sections: navItems, stages: stages.map(({text,guide,...stage})=>stage) }).replaceAll("<", "\\u003c");
 
 const page = `<!doctype html>
 <html lang="en">
@@ -185,6 +188,7 @@ await mkdir(dirname(outputPath), { recursive: true });
 await mkdir(dirname(sourceCopyPath), { recursive: true });
 await writeFile(outputPath, page, "utf8");
 await writeFile(sourceCopyPath, source, "utf8");
+await renderGuides({ stages, metadata, digest, assetVersion, renderMarkdown, escapeHtml, stripMarkdown, slugify, root: dirname(outputPath) });
 if (mapAsset) await copyFile(resolve(dirname(sourcePath), mapAsset), resolve(dirname(outputPath), basename(mapAsset)));
 console.log(`Rendered ${outputPath}`);
 console.log(`Source SHA-256: ${digest}`);

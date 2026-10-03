@@ -1,6 +1,6 @@
 # Sicily 2026: Divide & Together
 
-Shared plan for **3–17 October 2026**, updated **30 September**. Fausto's six cycling stays and **Catania Centre Urban Art B&B for the couple, 13–17 October**, are booked. The Divide runs **5–11 October**; the cyclists' Catania night on **11–12 October** is still unbooked.
+Shared plan for **3–17 October 2026**, updated **3 October**. Fausto's six cycling stays and **Catania Centre Urban Art B&B for the couple, 13–17 October**, are booked. The Divide runs **5–11 October**; the cyclists' Catania night on **11–12 October** is still unbooked.
 
 ## Monday 5 October — keep this handy
 
@@ -49,7 +49,9 @@ Fausto's planned seven Divide stages total **469.28 km / 9,394 m climbing**. Inc
 
 ## Website and sharing
 
-Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The guide has eight selectable stage cards and exact GPX maps/downloads for stages 2, 3, 4, 6, 7 and 8. Stages 1 and 5 remain unavailable in the current Garmin session.** [Download the six-file ZIP](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip), or see [individual GPX/course links](ROUTES.md) and [release checks](website/RELEASE.md).
+Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The guide has eight selectable stage cards and seven exact GPX maps/downloads. Only Stage 5, Montedoro → Enna, is still missing.** [Download the seven-file ZIP](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip), or see [individual GPX/course links](ROUTES.md) and [release checks](website/RELEASE.md).
+
+**[Along the stage](https://sicily.apps.kibk.net/stages/)** has eight short, scrollable reading pages with 25 place cards: local context, what to notice and Maps links. They work without JavaScript and link back to the selected stage map. Background is linked through place names, with no Sources section; detours and the unverified Stage 5 intermediate stop are explicit. [Research and route-proximity notes](PLACES.md).
 
 The site's existing private/Tailscale access is preserved; the GitHub repository remains the public sharing surface. Live tracking remains disabled. The historical site/translations are retained in source but are not the current guide. A repository push does not itself deploy the hosted site.
 

@@ -15,7 +15,11 @@ Evidence index updated **29 September 2026** for revised dates, rail documents, 
 - [Fausto's original Modica–Catania GPX](website/modica-catania-fausto.gpx) — historical asset; no longer the active 5 October route
 - [Suggested Modica–Scicli–Sampieri outline](https://www.google.com/maps/dir/?api=1&origin=Modica%2C%20Italy&destination=Modica%2C%20Italy&travelmode=bicycling&waypoints=Scicli%2C%20Italy%7CSampieri%2C%20Italy) — a discussion aid, not a checked GPX
 
-The official Sicily Divide pages are general route references. **For this trip, Fausto's eight Garmin course links take precedence**: see [ROUTES.md](ROUTES.md). The current official Stage 4 variant via Racalmuto is about 85.8 km and differs from his 68.24 km course. Exact exports for stages **2, 3, 4, 6, 7 and 8** were downloaded and inspected 30 September. **Stages 1 and 5** show no course details/export controls in the current signed-in Garmin session. Stage 2's current Garmin course is **65.76 km / 1,334 m**, not the older planned 71.36 km / 1,430 m; confirm with Fausto. Do not substitute generic official files or reverse the historical northbound course.
+The official Sicily Divide pages are general route references. **For this trip, Fausto's eight Garmin course links take precedence**: see [ROUTES.md](ROUTES.md). The current official Stage 4 variant via Racalmuto is about 85.8 km and differs from his 68.24 km course. Exact exports for stages **2, 3, 4, 6, 7 and 8** were downloaded and inspected 30 September; **Stage 1** was supplied and checked 3 October. **Stage 5** still cannot be exported, as reported by Kirill on 3 October. Stage 2's checked Garmin course is **65.76 km / 1,334 m**, not the older planned 71.36 km / 1,430 m; confirm with Fausto. Do not substitute generic official files or reverse the historical northbound course.
+
+## Places along the stages
+
+Added 3 October: eight short reading pages covering 25 places. Facts and primary links are in the `Along the stage` blocks of [website/guide/content.md](website/guide/content.md); [PLACES.md](PLACES.md) records selection and route-proximity limits. Sources include UNESCO, Sicily's regional tourism service, municipal sites, the Belice tourism network and the Teatro Andromeda operator. These are cultural notes, not opening-hours or road-access confirmations.
 
 ## Train and bicycle transport
 

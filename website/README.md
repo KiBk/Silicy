@@ -1,6 +1,8 @@
 # Website
 
-Static source for [sicily.apps.kibk.net](https://sicily.apps.kibk.net). The active generated guide is in **[guide/](guide/)**; factual source is **[guide/content.md](guide/content.md)**. It has eight selectable stages, a fixed map with animated GPX lines, hotel/stop navigation, logistics and accommodation research. Exact GPX files for **2, 3, 4, 6, 7 and 8** are imported, with individual and six-file ZIP downloads. **1 and 5** remain pending; Stage 2's current export differs from the planned figures and is flagged.
+Static source for [sicily.apps.kibk.net](https://sicily.apps.kibk.net). The active generated guide is in **[guide/](guide/)**; factual source is **[guide/content.md](guide/content.md)**. It has eight selectable stages, a fixed map with animated GPX lines, hotel/stop navigation, logistics and accommodation research. Seven exact GPX files are imported, with individual and ZIP downloads. Only **Stage 5** remains pending; Stage 2's export differs from the planned figures and is flagged.
+
+Each stage links to a static reading page at `/stages/N/`; `/stages/` is the eight-page index. `scripts/render_guides.mjs` renders the `#### Along the stage` blocks and `#####` linked place headings from the same canonical Markdown. These pages need no JavaScript, map tiles or external fonts. Preserve all source text, direct links, explicit detours, and back-to-stage/previous/next navigation when editing. Checks cover paragraph fidelity, internal links, all guide pages and missing-route caveats.
 
 The pre-redesign root HTML/JS/CSS, Russian/Italian translations and old northbound GPX are retained as historical source, not deployed. The synchronized guide is currently in English. Current access controls are preserved and live tracking remains disabled.
 

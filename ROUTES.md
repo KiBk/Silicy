@@ -1,12 +1,12 @@
 # Fausto's eight courses — 5–12 October 2026
 
-Supplied by Kirill from Fausto's table on **29 September 2026**. Six Garmin GPX files downloaded and checked **30 September**. These are the intended course links, replacing generic official variants. The table's distance/climbing columns retain Fausto's **planned** figures; Stage 2's current export differs and needs his confirmation.
+Supplied by Kirill from Fausto's table on **29 September 2026**. Six Garmin GPX files downloaded and checked **30 September**; Kirill supplied Stage 1 on **3 October**. These are the intended course links, replacing generic official variants. The table's distance/climbing columns retain Fausto's **planned** figures; Stage 2's current export differs and needs his confirmation.
 
-**[Download all six available GPX files (ZIP)](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip).** Stages **1 and 5 are not included**: their Garmin links load navigation but no course details/export control in the current signed-in session. Reloads and fresh tabs did not resolve this; request the exports or sharing access from Fausto.
+**[Download all seven available GPX files (ZIP)](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip).** Only **Stage 5, Montedoro → Enna**, is missing. Kirill still cannot download it as of 3 October; request that GPX directly from Fausto. No guessed track is substituted.
 
 | Date | Stage | km | Climbing | Garmin course | Exact website track |
 |---|---|---:|---:|---|---|
-| 5 Oct | Palermo → Gibellina | 77 | 1,396 m | [513237884](https://connect.garmin.com/app/course/513237884) | GPX needed; course details unavailable |
+| 5 Oct | Palermo → Gibellina | 77 | 1,396 m | [513237884](https://connect.garmin.com/app/course/513237884) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-1.gpx) |
 | 6 Oct | Gibellina → Sambuca di Sicilia | 71.36 | 1,430 m | [510243655](https://connect.garmin.com/app/course/510243655) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-2.gpx); **current Garmin: 65.76 km / 1,334 m** |
 | 7 Oct | Sambuca → Santo Stefano Quisquina | 59.59 | 1,333 m | [510243994](https://connect.garmin.com/app/course/510243994) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-3.gpx) |
 | 8 Oct | Santo Stefano Quisquina → Montedoro | 68.24 | 1,516 m | [510246704](https://connect.garmin.com/app/course/510246704) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-4.gpx) |
@@ -19,12 +19,15 @@ Supplied by Kirill from Fausto's table on **29 September 2026**. Six Garmin GPX 
 
 ## Track provenance
 
+Stage 1 was downloaded by Kirill and imported unchanged on 3 October from `COURSE_513237884.gpx`. It is named **SD01/ Palermo - Gibellina** and retains **2,933 points**. Its public-street start in Palermo and finish in Gibellina Nuova were visually checked in Google Maps; neither is a labelled private home. Source: [stage-1.gpx](website/guide/routes/stage-1.gpx), SHA-256 `c8f1193f36b504e5aecae918e4b3c01bea7ff2bdc0314b895b200206667418dd`.
+
 Stage 4 was downloaded by Kirill from Garmin and supplied locally on 29 September. It is named **SD04 / Santo Stefano Quisquina - Montedoro**; spherical point-to-point measurement is **68.219 km**, consistent with Garmin's displayed 68.24 km. Geometry retains all 5,507 points and their segment boundaries. Source: [stage-4.gpx](website/guide/routes/stage-4.gpx), SHA-256 `c834e3bbb6e67537d0f14454fef264816e17ceebc988d9b089c1074260bc0490`.
 
-On 30 September, Garmin's **Options → Download GPX file** exported stages 2, 3, 6, 7 and 8. A fresh Stage 4 export is byte-identical to the earlier file. The six files preserve all **26,832 track points**, segment boundaries and original bytes. They contain no waypoint names, account identifiers, heart-rate or cadence data. Hashes are recorded in the generated [routes.json](website/guide/public/routes.json).
+On 30 September, Garmin's **Options → Download GPX file** exported stages 2, 3, 6, 7 and 8. A fresh Stage 4 export is byte-identical to the earlier file. Together with Stage 1, the seven files preserve all **29,765 track points**, segment boundaries and original bytes. They contain no waypoint names, account identifiers, heart-rate or cadence data. Hashes are recorded in the generated [routes.json](website/guide/public/routes.json).
 
 | Stage | GPX points | Measured spherical distance | Current Garmin distance / climb |
 |---|---:|---:|---|
+| 1 | 2,933 | 76.950 km | Not re-read; Fausto's planned figures: 77 km / 1,396 m |
 | 2 | 4,333 | 65.730 km | 65.76 km / 1,334 m — differs from plan |
 | 3 | 4,107 | 59.562 km | 59.59 km / 1,333 m |
 | 4 | 5,507 | 68.219 km | 68.24 km / 1,516 m |
