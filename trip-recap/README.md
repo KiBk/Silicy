@@ -1,6 +1,6 @@
 # Recorded-trip recap workspace
 
-This folder prepares **actual recorded rides**, separate from the planned courses used by the existing travel website. All eight rides from 5–12 October 2026 have been exported and validated: 615.26 km, 11,321 m ascent and 33:17:05 Garmin timer time. The [interactive recap prototype](../website/recap/README.md) uses separate privacy-trimmed copies and now includes 26 GPS-located photos from the user's ZIP.
+This folder prepares **actual recorded rides**, separate from the planned courses used by the existing travel website. All eight rides from 5–12 October 2026 have been exported and validated: 615.26 km, 11,321 m ascent and 33:17:05 Garmin timer time. The [interactive recap](../website/recap/README.md) uses separate privacy-trimmed copies and includes 26 GPS-located photos from the user's ZIP.
 
 ## Local-only inputs and output
 
