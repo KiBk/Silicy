@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-15",
+  "method": "Stages 1–6: Google Maps named business pages. Stage 7: Google Maps address page for user-supplied Via Paradiso 3, Lentini; Booking lists a different address, so the distinction is retained in content.md. Coordinates taken from resolved place URLs, not ride endpoints.",
+  "pins": [
+    {"stage": 1, "lat": 37.810913, "lon": 12.8710947},
+    {"stage": 2, "lat": 37.6460495, "lon": 13.1099101},
+    {"stage": 3, "lat": 37.6259735, "lon": 13.4897909},
+    {"stage": 4, "lat": 37.4526367, "lon": 13.8175838},
+    {"stage": 5, "lat": 37.5689954, "lon": 14.2752763},
+    {"stage": 6, "lat": 37.6515922, "lon": 14.6412999},
+    {"stage": 7, "lat": 37.2838833, "lon": 14.9997237}
+  ]
+}

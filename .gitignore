@@ -2,3 +2,15 @@
 *.log
 .idea/
 .vscode/
+
+# Originals and private photo/route metadata must never be published.
+trip-recap/private/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.HEIC
+*.heic
+*.MP4
+*.mp4
+Photos-*.zip

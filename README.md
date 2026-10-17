@@ -1,4 +1,37 @@
-# Sicily 2026: Divide & Together
+# Sicily Divide — the journey
+
+**[Explore the interactive recap →](https://kibk.net/Silicy/)**
+
+Eight recorded rides from Palermo to Modica, **5–12 October 2026 · 615.26 km · 11,321 m climbing · 26 photos · 7 stays**. Select a stage, browse the pictures, see the per-person hotel costs and read our personal notes. The final two days follow the actual **Regalbuto → Lentini → Modica** route.
+
+## Download our recorded rides
+
+**[All eight stages + combined track (ZIP)](https://kibk.net/Silicy/sicily-recorded-gpx.zip)** · [Combined GPX](https://kibk.net/Silicy/routes/sicily-complete.gpx)
+
+| Stage | Date | Recorded ride | GPX |
+|---|---|---|---|
+| 1 | 5 Oct | Palermo → Gibellina | [Download](https://kibk.net/Silicy/routes/day-01.gpx) |
+| 2 | 6 Oct | Gibellina → Sambuca di Sicilia | [Download](https://kibk.net/Silicy/routes/day-02.gpx) |
+| 3 | 7 Oct | Sambuca di Sicilia → Santo Stefano Quisquina | [Download](https://kibk.net/Silicy/routes/day-03.gpx) |
+| 4 | 8 Oct | Santo Stefano Quisquina → Montedoro | [Download](https://kibk.net/Silicy/routes/day-04.gpx) |
+| 5 | 9 Oct | Montedoro → Enna | [Download](https://kibk.net/Silicy/routes/day-05.gpx) |
+| 6 | 10 Oct | Enna → Regalbuto | [Download](https://kibk.net/Silicy/routes/day-06.gpx) |
+| 7 | 11 Oct | Regalbuto → Lentini | [Download](https://kibk.net/Silicy/routes/day-07.gpx) |
+| 8 | 12 Oct | Lentini → Modica | [Download](https://kibk.net/Silicy/routes/day-08.gpx) |
+
+The files are also available [in this repository](website/recap/public/routes) and as a [repository ZIP](website/recap/public/sicily-recorded-gpx.zip). If a browser displays GPX as text, use **Save link as…** or download the ZIP.
+
+**Privacy:** the final **500.1 metres** are removed from the recap map and all recorded-ride downloads. No private finish pin, timestamps, health/account fields or original photo metadata are included. Originals remain local and ignored by Git. Headline totals describe the full rides, including the trimmed part. These recordings are not official route recommendations; check current access and conditions before riding.
+
+[Trip facts and notes](website/recap/content.md) · [Website maintenance](website/recap/README.md)
+
+GitHub Pages deploys only `website/recap/public/` after checks pass on `main`. The repository keeps its original name, **Silicy**, which is also the case-sensitive website path. No separate repository or new DNS record is needed. The existing planning site is unchanged.
+
+## Original pre-trip plan — archived
+
+The material below and the root planning documents describe the **plan before departure**, not the final outcome. For the actual rides, stays and prices, use the recap above. In particular, the Palermo pass shop was closed, no pass was collected, and the last cycling stay was in Lentini rather than Catania.
+
+### Sicily 2026: Divide & Together
 
 Shared plan for **3–17 October 2026**, updated **3 October**. Fausto's six cycling stays and **Catania Centre Urban Art B&B for the couple, 13–17 October**, are booked. The Divide runs **5–11 October**; the cyclists' Catania night on **11–12 October** is still unbooked.
 

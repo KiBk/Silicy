@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Illustrated demo frame, not a trip photograph">
+<rect width="800" height="560" fill="#e8e5d9"/><circle cx="620" cy="135" r="65" fill="#d8a76b"/>
+<path d="M0 390L220 180L480 445L680 300L800 410V560H0Z" fill="#aab6a4"/><path d="M0 450L240 360L430 460L650 320L800 440V560H0Z" fill="#577969"/>
+<path d="M-10 560Q170 360 380 510T810 460" fill="none" stroke="#f4ecd9" stroke-width="18"/>
+<rect x="27" y="27" width="174" height="40" rx="20" fill="#fcfaf2"/><text x="114" y="52" text-anchor="middle" font-family="sans-serif" font-size="14" letter-spacing="2" fill="#33483c">DEMO FRAME</text>
+</svg>

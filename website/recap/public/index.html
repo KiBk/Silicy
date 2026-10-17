@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#eceee5"><meta name="description" content="Eight recorded rides from Palermo to Modica. 615.26 km, 11,321 m of climbing, and the places between."><title>Sicily Divide · Sicily ride diary</title><link rel="stylesheet" href="leaflet.css"><link rel="stylesheet" href="styles.css?v=fbf9bf600ce6"></head>
+<body data-source-sha256="57adcddd806730f6a8ecf5effbd187e9a8bfa867046f6b5af767411eec25dc99">
+<a class="skip" href="#stage-controls">Choose a stage</a>
+<main class="map-page" id="the-journey">
+  <div id="journey-map" aria-label="Interactive map of eight recorded Sicily rides"></div>
+  <div class="map-wash" aria-hidden="true"></div>
+  <header class="trip-heading" aria-live="polite">
+    <p class="eyebrow" id="trip-dates">8 days · 5–12 October 2026</p>
+    <h1 id="trip-title">Sicily Divide</h1>
+    <div class="trip-stats" id="trip-stats"><span><strong>615.26</strong> km</span><span>↑ <strong>11,321</strong> m</span></div>
+  </header>
+  <div class="map-tools">
+    <button id="open-notes" class="icon-button" aria-label="Trip details" aria-haspopup="dialog">i</button>
+  </div>
+  <div id="map-loading" role="status">Unfolding the journey…</div>
+  <div class="map-navigation" aria-label="Map navigation"><button id="fit-map" title="Fit route" aria-label="Fit selected route">⌖</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button></div>
+  <aside id="photo-preview" class="photo-preview" hidden aria-hidden="true"><img id="preview-image" alt=""><div><small id="preview-stage"></small><strong id="preview-title"></strong><span>Click to open</span></div></aside>
+  <div class="route-dock" id="stage-controls">
+    <nav class="stage-rail" aria-label="Choose a stage"><button id="all-stages" aria-pressed="true"><span class="overview-icon" aria-hidden="true">↝</span> All eight</button><button class="stage-choice" data-stage="1" style="--stage:#ac4a2e" aria-pressed="false" aria-label="Stage 1: Palermo to Gibellina"><span class="stage-number">1</span><span>Gibellina</span></button><button class="stage-choice" data-stage="2" style="--stage:#b77a18" aria-pressed="false" aria-label="Stage 2: Gibellina to Sambuca di Sicilia"><span class="stage-number">2</span><span>Sambuca</span></button><button class="stage-choice" data-stage="3" style="--stage:#687c32" aria-pressed="false" aria-label="Stage 3: Sambuca di Sicilia to Santo Stefano Quisquina"><span class="stage-number">3</span><span>S. Stefano</span></button><button class="stage-choice" data-stage="4" style="--stage:#16776b" aria-pressed="false" aria-label="Stage 4: Santo Stefano Quisquina to Montedoro"><span class="stage-number">4</span><span>Montedoro</span></button><button class="stage-choice" data-stage="5" style="--stage:#7961a5" aria-pressed="false" aria-label="Stage 5: Montedoro to Enna"><span class="stage-number">5</span><span>Enna</span></button><button class="stage-choice" data-stage="6" style="--stage:#287f9e" aria-pressed="false" aria-label="Stage 6: Enna to Regalbuto"><span class="stage-number">6</span><span>Regalbuto</span></button><button class="stage-choice" data-stage="7" style="--stage:#b14775" aria-pressed="false" aria-label="Stage 7: Regalbuto to Lentini"><span class="stage-number">7</span><span>Lentini</span></button><button class="stage-choice" data-stage="8" style="--stage:#795238" aria-pressed="false" aria-label="Stage 8: Lentini to Modica"><span class="stage-number">8</span><span>Modica</span></button></nav>
+  </div>
+  <aside class="ride-note" aria-labelledby="ride-note-title"><p class="ride-note-label">FROM THE SADDLE <span id="ride-note-scope">Overall</span></p><h2 id="ride-note-title">Early October, at our own pace</h2><div class="ride-note-body" id="ride-note-body"><p>The weather was mostly great; early October felt like a good time to ride. The proposed road route had far too much gravel for my road wheels—I had four punctures.</p>
+<p>Most daily distances were just right. They looked short on paper, but rough roads, slow descents and plenty of climbing filled the days. We could wake up relaxed, stop to admire nature or solve problems, and still avoid rushing.</p>
+</div><button id="expand-note" aria-expanded="false" aria-controls="ride-note-body">Read more ↓</button></aside>
+  <span class="privacy-hint">Private finish hidden · 500 m</span>
+</main>
+<dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-title">
+  <div class="viewer-canvas"><img id="viewer-image" alt="Selected trip photograph"><div class="viewer-top"><span id="photo-position"></span><button id="close-photo" aria-label="Close picture">×</button></div><button id="previous-photo" class="photo-arrow previous" aria-label="Previous picture">‹</button><button id="next-photo" class="photo-arrow next" aria-label="Next picture">›</button><div class="viewer-caption"><div><p id="photo-stage"></p><h2 id="photo-title"></h2><p id="photo-description" class="sr-only"></p></div><button id="show-photo-map">On the map ↗</button></div></div>
+</dialog>
+<dialog id="notes-dialog" class="notes-dialog" aria-labelledby="notes-title">
+  <div class="notes-top"><p class="eyebrow">THE SMALL PRINT</p><button id="close-notes" class="icon-button" aria-label="Close trip details">×</button></div><h2 id="notes-title">A week across Sicily.</h2><p class="notes-intro">Eight rides. Seven stays. 26 moments along the way.</p>
+  <div class="notes-stats"><strong>615.26 <small>km ridden</small></strong><strong>11,321 <small>metres climbed</small></strong></div>
+  <ul class="stay-list"><li><div><button class="stay-locate" data-hotel="1">B&amp;B Mille e una notte <span aria-hidden="true">↗</span></button><small>Gibellina · Shared room</small></div><strong>€34.50<small>per person</small></strong></li><li><div><button class="stay-locate" data-hotel="2">Rinaldo Holiday Home <span aria-hidden="true">↗</span></button><small>Sambuca di Sicilia · Shared room</small></div><strong>€35<small>per person</small></strong></li><li><div><button class="stay-locate" data-hotel="3">Casa Quisquina <span aria-hidden="true">↗</span></button><small>Santo Stefano Quisquina · Separate rooms</small></div><strong>€50<small>per person</small></strong></li><li><div><button class="stay-locate" data-hotel="4">Albergo Diffuso <span aria-hidden="true">↗</span></button><small>Montedoro · Separate rooms; breakfast included</small></div><strong>€42<small>per person</small></strong></li><li><div><button class="stay-locate" data-hotel="5">B&amp;B Proserpina <span aria-hidden="true">↗</span></button><small>Enna · Shared room</small></div><strong>€35<small>per person</small></strong></li><li><div><button class="stay-locate" data-hotel="6">B&amp;B Via Venezia <span aria-hidden="true">↗</span></button><small>Regalbuto · Shared room</small></div><strong>€25<small>per person</small></strong></li><li><div><button class="stay-locate" data-hotel="7">B&amp;B Sicily O&#39;Clock Room <span aria-hidden="true">↗</span></button><small>Lentini · Separate rooms</small></div><strong>€65<small>per person</small></strong></li></ul>
+  <p class="notes-fact">Enna: no pass, no €10 discount. The Palermo pickup point was closed.</p>
+  <details><summary>Stay addresses & room prices</summary><div class="notes-body"><p>Click a named stay to highlight its pin. These are our total accommodation costs for two riders, from the expense record and room-price confirmations—not per-room rates. Map locations checked 15 October 2026—not current booking quotes.</p>
+<p>Accommodation total: €573 for two riders across seven nights. This is the cost of the stays, not the total trip budget.</p>
+<p>The Lentini pin uses <a href="https://www.google.com/maps/search/?api=1&query=Via%20Paradiso%203%2C%20Lentini">our separate unit at Via Paradiso 3</a>, not the main Booking listing address. The private arrival address in Modica is not shown.</p>
+<p>Sicily Divide pass: the Palermo pickup point was closed when we arrived on Monday 5 October, so we never received the pass. Enna therefore cost €70 rather than the planned €60. For a repeat trip, confirm an open pickup time before arrival.</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Stay</th>
+<th>Amount</th>
+<th>Town</th>
+<th>Location note</th>
+<th align="right">Per person EUR</th>
+<th>Room arrangement</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><a href="https://www.google.com/maps/search/?api=1&query=B%26B%20Mille%20e%20una%20notte%20Via%20Pietro%20Novelli%2013%20Gibellina">B&amp;B Mille e una notte</a></td>
+<td>€69 paid</td>
+<td>Gibellina</td>
+<td>Via Pietro Novelli 13</td>
+<td align="right">34.50</td>
+<td>Shared room</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://www.google.com/maps/search/?api=1&query=Rinaldo%20Holiday%20Home&query_place_id=ChIJ64shrpQ-GhMRfQHMY7rzbIw">Rinaldo Holiday Home</a></td>
+<td>€70 paid</td>
+<td>Sambuca di Sicilia</td>
+<td>Vicolo Oddo 4; pin uses the two-bedroom listing</td>
+<td align="right">35</td>
+<td>Shared room</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://www.google.com/maps/search/?api=1&query=Casa%20Quisquina%2C%20Via%20Palma%2050%2C%20Santo%20Stefano%20Quisquina">Casa Quisquina</a></td>
+<td>€100 paid</td>
+<td>Santo Stefano Quisquina</td>
+<td>Two rooms × €50; Via Palma 50</td>
+<td align="right">50</td>
+<td>Separate rooms</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://www.google.com/maps/search/?api=1&query=Albergo%20Diffuso%2C%20Via%20Flaminia%201%2C%20Montedoro">Albergo Diffuso</a></td>
+<td>€84 paid</td>
+<td>Montedoro</td>
+<td>Two rooms × (€38 + €4 breakfast); main listing at Via Flaminia 1, assigned building unconfirmed</td>
+<td align="right">42</td>
+<td>Separate rooms; breakfast included</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://www.google.com/maps/search/?api=1&query=Proserpina%2C%20Via%20Sant%27Agata%20108%2C%20Enna">B&amp;B Proserpina</a></td>
+<td>€70 paid</td>
+<td>Enna</td>
+<td>Via Sant&#39;Agata 108; €10 Sicily Divide pass discount not applied—we had no pass</td>
+<td align="right">35</td>
+<td>Shared room</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://www.google.com/maps/search/?api=1&query=Bed%20%26%20Breakfast%20Via%20Venezia%2010%2C%20Regalbuto">B&amp;B Via Venezia</a></td>
+<td>€50 paid</td>
+<td>Regalbuto</td>
+<td>Via Venezia 10</td>
+<td align="right">25</td>
+<td>Shared room</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://www.booking.com/hotel/it/sicily-o-clock-house-lentini.en-gb.html">B&amp;B Sicily O&#39;Clock Room</a></td>
+<td>€130 paid</td>
+<td>Lentini</td>
+<td>Two rooms, approximately €65 each; our separate unit at Via Paradiso 3</td>
+<td align="right">65</td>
+<td>Separate rooms</td>
+</tr>
+</tbody></table>
+</div></details>
+  <details><summary>Daily distance & climbing</summary><div class="notes-body"><p>Eight colours, eight days. Pan and zoom the map or choose a stage to follow its recorded GPX. The last two rides follow the actual Lentini split, not the original Catania overnight plan.</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Date</th>
+<th>From</th>
+<th>To</th>
+<th align="right">Distance km</th>
+<th align="right">Ascent m</th>
+<th>Timer time</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>5 Oct 2026</td>
+<td>Palermo</td>
+<td>Gibellina</td>
+<td align="right">79.22</td>
+<td align="right">1414</td>
+<td>4:23:18</td>
+</tr>
+<tr>
+<td>2</td>
+<td>6 Oct 2026</td>
+<td>Gibellina</td>
+<td>Sambuca di Sicilia</td>
+<td align="right">68.29</td>
+<td align="right">1407</td>
+<td>4:02:04</td>
+</tr>
+<tr>
+<td>3</td>
+<td>7 Oct 2026</td>
+<td>Sambuca di Sicilia</td>
+<td>Santo Stefano Quisquina</td>
+<td align="right">61.99</td>
+<td align="right">1344</td>
+<td>3:51:04</td>
+</tr>
+<tr>
+<td>4</td>
+<td>8 Oct 2026</td>
+<td>Santo Stefano Quisquina</td>
+<td>Montedoro</td>
+<td align="right">69.89</td>
+<td align="right">1462</td>
+<td>3:43:35</td>
+</tr>
+<tr>
+<td>5</td>
+<td>9 Oct 2026</td>
+<td>Montedoro</td>
+<td>Enna</td>
+<td align="right">71.14</td>
+<td align="right">1663</td>
+<td>4:11:19</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10 Oct 2026</td>
+<td>Enna</td>
+<td>Regalbuto</td>
+<td align="right">68.02</td>
+<td align="right">1424</td>
+<td>4:04:56</td>
+</tr>
+<tr>
+<td>7</td>
+<td>11 Oct 2026</td>
+<td>Regalbuto</td>
+<td>Lentini</td>
+<td align="right">112.19</td>
+<td align="right">1196</td>
+<td>5:10:15</td>
+</tr>
+<tr>
+<td>8</td>
+<td>12 Oct 2026</td>
+<td>Lentini</td>
+<td>Modica</td>
+<td align="right">84.52</td>
+<td align="right">1411</td>
+<td>3:50:34</td>
+</tr>
+</tbody></table>
+</div></details>
+  <details><summary>Photos, recordings & privacy</summary><div class="notes-body"><p>26 photos from the ride, placed using their recorded GPS—not guessed locations. Open any photo to browse all 26 in capture-time order, beginning with the picture you clicked. Evening stops are included with that day&#39;s stage. Web copies have no embedded location or camera metadata; only the reviewed map pins carry coordinates. Original photos and Live Photo clips stay private.</p>
+<p>Recorded activity GPX files were exported from <a href="https://connect.garmin.com/">Garmin Connect</a> on 15 October 2026. The eight rides cover 5–12 October; the 4 October warm-up is excluded. Garmin&#39;s rounded activity figures total 615.26 km and 11,321 m of climbing, with 33:17:05 of timer time—not elapsed or moving time.</p>
+<p>For privacy, at least the final 500 metres of Stage 8 are removed from the map and every downloadable track. There is no private finish pin. Downloads also omit timestamps, health data and account identifiers. The full original recordings remain local and unchanged; the headline totals still describe the full rides.</p>
+<p>Separate days and original GPX segments are not joined by invented lines. Recorded rides describe this trip, not a guarantee of present-day access, surface conditions or suitability for another rider.</p>
+<p>GPX sharing is separate from this website; the map interface has no track-download links.</p>
+</div></details>
+</dialog>
+<noscript><div class="no-script"><h2>Sicily Divide</h2><p>The interactive map needs JavaScript. 615.26 km · 11,321 m climbing.</p><a href="source.md">Read the trip details</a></div></noscript>
+<script type="application/json" id="site-meta">{"stages":[{"stage":1,"date":"5 Oct 2026","from":"Palermo","to":"Gibellina","km":79.22,"ascent":1414,"timer":"4:23:18","color":"#ac4a2e"},{"stage":2,"date":"6 Oct 2026","from":"Gibellina","to":"Sambuca di Sicilia","km":68.29,"ascent":1407,"timer":"4:02:04","color":"#b77a18"},{"stage":3,"date":"7 Oct 2026","from":"Sambuca di Sicilia","to":"Santo Stefano Quisquina","km":61.99,"ascent":1344,"timer":"3:51:04","color":"#687c32"},{"stage":4,"date":"8 Oct 2026","from":"Santo Stefano Quisquina","to":"Montedoro","km":69.89,"ascent":1462,"timer":"3:43:35","color":"#16776b"},{"stage":5,"date":"9 Oct 2026","from":"Montedoro","to":"Enna","km":71.14,"ascent":1663,"timer":"4:11:19","color":"#7961a5"},{"stage":6,"date":"10 Oct 2026","from":"Enna","to":"Regalbuto","km":68.02,"ascent":1424,"timer":"4:04:56","color":"#287f9e"},{"stage":7,"date":"11 Oct 2026","from":"Regalbuto","to":"Lentini","km":112.19,"ascent":1196,"timer":"5:10:15","color":"#b14775"},{"stage":8,"date":"12 Oct 2026","from":"Lentini","to":"Modica","km":84.52,"ascent":1411,"timer":"3:50:34","color":"#795238"}],"hotels":[{"stage":1,"name":"B&B Mille e una notte","url":"https://www.google.com/maps/search/?api=1&query=B%26B%20Mille%20e%20una%20notte%20Via%20Pietro%20Novelli%2013%20Gibellina","amount":"€69 paid","cost":69,"town":"Gibellina","note":"Via Pietro Novelli 13","perPerson":34.5,"room":"Shared room"},{"stage":2,"name":"Rinaldo Holiday Home","url":"https://www.google.com/maps/search/?api=1&query=Rinaldo%20Holiday%20Home&query_place_id=ChIJ64shrpQ-GhMRfQHMY7rzbIw","amount":"€70 paid","cost":70,"town":"Sambuca di Sicilia","note":"Vicolo Oddo 4; pin uses the two-bedroom listing","perPerson":35,"room":"Shared room"},{"stage":3,"name":"Casa Quisquina","url":"https://www.google.com/maps/search/?api=1&query=Casa%20Quisquina%2C%20Via%20Palma%2050%2C%20Santo%20Stefano%20Quisquina","amount":"€100 paid","cost":100,"town":"Santo Stefano Quisquina","note":"Two rooms × €50; Via Palma 50","perPerson":50,"room":"Separate rooms"},{"stage":4,"name":"Albergo Diffuso","url":"https://www.google.com/maps/search/?api=1&query=Albergo%20Diffuso%2C%20Via%20Flaminia%201%2C%20Montedoro","amount":"€84 paid","cost":84,"town":"Montedoro","note":"Two rooms × (€38 + €4 breakfast); main listing at Via Flaminia 1, assigned building unconfirmed","perPerson":42,"room":"Separate rooms; breakfast included"},{"stage":5,"name":"B&B Proserpina","url":"https://www.google.com/maps/search/?api=1&query=Proserpina%2C%20Via%20Sant%27Agata%20108%2C%20Enna","amount":"€70 paid","cost":70,"town":"Enna","note":"Via Sant'Agata 108; €10 Sicily Divide pass discount not applied—we had no pass","perPerson":35,"room":"Shared room"},{"stage":6,"name":"B&B Via Venezia","url":"https://www.google.com/maps/search/?api=1&query=Bed%20%26%20Breakfast%20Via%20Venezia%2010%2C%20Regalbuto","amount":"€50 paid","cost":50,"town":"Regalbuto","note":"Via Venezia 10","perPerson":25,"room":"Shared room"},{"stage":7,"name":"B&B Sicily O'Clock Room","url":"https://www.booking.com/hotel/it/sicily-o-clock-house-lentini.en-gb.html","amount":"€130 paid","cost":130,"town":"Lentini","note":"Two rooms, approximately €65 each; our separate unit at Via Paradiso 3","perPerson":65,"room":"Separate rooms"}],"rideNotes":{"0":{"title":"Early October, at our own pace","html":"\u003cp>The weather was mostly great; early October felt like a good time to ride. The proposed road route had far too much gravel for my road wheels—I had four punctures.\u003c/p>\n\u003cp>Most daily distances were just right. They looked short on paper, but rough roads, slow descents and plenty of climbing filled the days. We could wake up relaxed, stop to admire nature or solve problems, and still avoid rushing.\u003c/p>\n"},"1":{"title":"A hectic start, a lovely finish","html":"\u003cp>The short stretch from Palermo train station was chaotic: lots of people and cars, and a little scary for me. The pass pickup shop was closed, so we couldn&#39;t collect our passes—plan around its opening hours.\u003c/p>\n\u003cp>Gibellina was great: a nice hotel and plenty of dinner and supermarket options.\u003c/p>\n"},"2":{"title":"Ruins all to ourselves","html":"\u003cp>One of the highlights of the whole trip was wandering into the ruins. It was wonderful to walk around with nobody else there.\u003c/p>\n"},"3":{"title":"Bring lights for the tunnel","html":"\u003cp>The tunnel felt like a real adventure. Not knowing its length made it scary, although it turned out not to be very long. Bring lights.\u003c/p>\n\u003cp>This was also our first descent that felt like an abandoned, overgrown trail, leading toward the lake. The view afterwards was great.\u003c/p>\n"},"4":{"title":"From green to gold","html":"\u003cp>On the way to Montedoro, the surroundings changed noticeably from green vegetation to yellow sand. The climbs were quite hot, but nothing extreme.\u003c/p>\n"},"5":{"title":"Thorns, then the climb to Enna","html":"\u003cp>Another descent felt like an abandoned trail, with lots of thorn bushes—not ideal for tyres or exposed skin. The climb to Enna was tough but manageable.\u003c/p>\n"},"6":{"title":"Finding our way around the gravel","html":"\u003cp>The road to Regalbuto felt quite deserted. This was where we first started changing the route to avoid gravel.\u003c/p>\n\u003cp>We restocked inner tubes in Leonforte—the last bike shop we found on our way to Catania.\u003c/p>\n"},"7":{"title":"A day that was too long","html":"\u003cp>The ride to Lentini was too long for the relaxed pace we wanted. We felt rushed and stopped much less.\u003c/p>\n\u003cp>Catania was chaotic, and the roads afterwards felt boring and straight. This was the day I would make shorter.\u003c/p>\n"},"8":{"title":"The finish I hoped for","html":"\u003cp>The road to Modica was great: all asphalt, excellent surfaces, few cars and green, lovely scenery—a complete contrast to Catania.\u003c/p>\n\u003cp>I was very happy to finish in Modica, with its quieter pace and beautiful appearance.\u003c/p>\n"}},"digest":"57adcddd806730f6a8ecf5effbd187e9a8bfa867046f6b5af767411eec25dc99","version":"fbf9bf600ce6","title":"Sicily Divide","photoCount":26,"totalStays":573,"totalKm":"615.26","totalClimb":"11,321","dates":"5–12 October 2026"}</script><script src="leaflet.js" defer></script><script src="map-gestures.js?v=fbf9bf600ce6" defer></script><script src="app.js?v=fbf9bf600ce6" defer></script>
+</body></html>

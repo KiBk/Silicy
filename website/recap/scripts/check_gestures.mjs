@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import vm from 'node:vm';
+
+const handlers=new Map(), frames=new Map(), timers=new Map();
+let serial=0, zoom=8, finished=0, fine=true;
+const element={clientHeight:800,getBoundingClientRect:()=>({left:0,top:0,width:1280,height:800}),addEventListener:(name,fn)=>handlers.set(name,fn),removeEventListener:name=>handlers.delete(name)};
+const map={getContainer:()=>element,getMinZoom:()=>5,getMaxZoom:()=>18,getZoom:()=>zoom,stop(){},mouseEventToContainerPoint:e=>[e.clientX,e.clientY],setZoomAround:(anchor,z,options)=>{assert.equal(options.animate,false);assert.ok(anchor.every(Number.isFinite));zoom=z;}};
+const scope={window:{},matchMedia:()=>({matches:fine}),requestAnimationFrame:fn=>{frames.set(++serial,fn);return serial;},cancelAnimationFrame:id=>frames.delete(id),setTimeout:fn=>{timers.set(++serial,fn);return serial;},clearTimeout:id=>timers.delete(id)};
+vm.runInNewContext(readFileSync('public/map-gestures.js','utf8'),scope);
+const control=scope.window.installMapGestures(map,()=>finished++);
+const emit=(name,values={})=>{const event={clientX:200,clientY:300,deltaMode:0,deltaY:0,ctrlKey:false,preventDefault(){this.prevented=true;},stopImmediatePropagation(){this.stopped=true;},...values};handlers.get(name)(event);return event;};
+const flush=()=>{const pending=[...frames.values()];frames.clear();pending.forEach(fn=>fn());};
+assert.equal(emit('wheel',{deltaY:50}).prevented,undefined,'normal scrolling belongs to Leaflet');
+assert.equal(emit('wheel',{ctrlKey:true,deltaY:-72}).prevented,true);flush();assert.equal(zoom,9);
+emit('wheel',{ctrlKey:true,deltaY:72});flush();assert.equal(zoom,8);
+for(const fn of [...timers.values()])fn();assert.equal(control.isActive(),false);
+emit('gesturestart');emit('gesturechange',{scale:2});flush();assert.ok(Math.abs(zoom-9.4)<1e-9);
+emit('wheel',{ctrlKey:true,deltaY:-72});flush();assert.ok(Math.abs(zoom-9.4)<1e-9,'duplicate wheel ignored');
+emit('gestureend');assert.equal(control.isActive(),false);
+emit('wheel',{ctrlKey:true,deltaY:-10000});flush();assert.equal(zoom,18);
+control.destroy();assert.equal(handlers.size,0);assert.ok(finished>=2);
+const touch=scope.window.installMapGestures(map,()=>{});fine=false;
+assert.equal(emit('gesturestart').prevented,undefined,'native touch zoom must remain available');
+assert.equal(emit('wheel',{ctrlKey:true,deltaY:-20}).prevented,undefined);touch.destroy();
+console.log('ok: trackpad pinch direction, sensitivity, clamping, duplicate suppression and native-touch fallback');
