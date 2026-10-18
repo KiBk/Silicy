@@ -23,6 +23,8 @@ Physical touch swipes and Mac pinch feel remain real-device checks, not claims e
 
 ## Lowercase address · 18 October 2026
 
-The existing repository is being renamed from `KiBk/Silicy` to `KiBk/sicily`, correcting both the spelling and capitalization. The new canonical website address is **https://kibk.net/sicily/**. This is the same repository, not a replacement or a new project. The local checkout keeps its existing directory name.
+The existing repository was renamed from `KiBk/Silicy` to `KiBk/sicily`, correcting both the spelling and capitalization. The new canonical website address is **https://kibk.net/sicily/**. This is the same repository (GitHub ID `1351449230`), not a replacement or a new project. The local checkout keeps its existing directory name.
 
-All maintained website/download URLs and the local Git remote are updated. GitHub repository links redirect automatically; the old `/Silicy/` Pages address does not. Route geometry, photos, source facts and the privacy cut are unchanged. Live verification of the new address is pending.
+All maintained website/download URLs and the local Git remote are updated. GitHub repository links redirect automatically; the old `/Silicy/` Pages address does not. Route geometry, photos, source facts and the privacy cut are unchanged.
+
+[Deployment 39150106999](https://github.com/KiBk/sicily/actions/runs/39150106999) passed for commit `16b122aba1e53488f92224aca56966a0dbbfa239`. `make verify` matched all 73 public files at the lowercase address. Browser verification confirmed the overview, stage-8 selection and deep-link reload under `/sicily/`. The URL without a trailing slash resolves to the HTTPS site successfully. The site-source hash and all reviewed data/photo hashes remain unchanged.
