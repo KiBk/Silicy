@@ -6,7 +6,7 @@ This folder prepares **actual recorded rides**, separate from the planned course
 
 `private/` is Git-ignored. It contains the eight downloaded activity GPX files, a checked activity list, provenance manifest, summary and derived map assets. These files are not approved for public publication: recordings may contain health/sensor data, timestamps and private endpoints.
 
-`private/photos/` contains 26 original HEIC images, their 26 paired Live Photo clips, raw metadata, visual review sheets and import provenance. `inspect_photos.py` prepares this private review; the recap importer produces separate metadata-stripped web images. Only the reviewed copies under `website/recap/public/` are approved for the [GitHub Pages recap](https://kibk.net/Silicy/); see its [release record](../website/recap/RELEASE.md). The existing planning site remains unchanged.
+`private/photos/` contains 26 original HEIC images, their 26 paired Live Photo clips, raw metadata, visual review sheets and import provenance. `inspect_photos.py` prepares this private review; the recap importer produces separate metadata-stripped web images. Only the reviewed copies under `website/recap/public/` are approved for the [GitHub Pages recap](https://kibk.net/sicily/); see its [release record](../website/recap/RELEASE.md). The existing planning site remains unchanged.
 
 Rebuild and validate the local assets:
 

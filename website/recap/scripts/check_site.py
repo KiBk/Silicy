@@ -25,6 +25,7 @@ def main() -> None:
     assert source == public_source, "public/source.md differs from content.md"
     assert f'data-source-sha256="{digest}"' in page, "source checksum missing from index.html"
     assert re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", meta["slug"]), "invalid site slug"
+    assert meta['base_path'] == '/sicily/' and meta['url'] == 'https://kibk.net/sicily/', "canonical address must stay lowercase"
     assert "[TODO" not in source.decode("utf-8", errors="replace"), "unresolved [TODO] in content.md"
     assert "__SLUG__" not in (root / "Makefile").read_text(encoding="utf-8"), "unresolved Makefile slug"
 

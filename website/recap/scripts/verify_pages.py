@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--url', default='https://kibk.net/Silicy')
+    parser.add_argument('--url', default='https://kibk.net/sicily')
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     public = root / 'public'

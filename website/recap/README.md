@@ -1,6 +1,6 @@
 # Sicily recorded-journey recap
 
-GitHub Pages recap at **https://kibk.net/Silicy/**, using the existing `KiBk/Silicy` repository. The pre-trip planning website is unchanged. See [RELEASE.md](RELEASE.md) for verified publication status.
+GitHub Pages recap at **https://kibk.net/sicily/**, using the existing `KiBk/sicily` repository. The pre-trip planning website is unchanged. See [RELEASE.md](RELEASE.md) for verified publication status.
 
 ## Preview and checks
 
@@ -65,7 +65,7 @@ OpenStreetMap supplies basemap tiles; those requests disclose the viewed map are
 
 ## GitHub Pages publication
 
-The repository workflow `.github/workflows/pages.yml` runs public-only checks, rejects stale generated files and deploys only `website/recap/public/` after pushes to `main`. Pull requests run checks without deployment. This project inherits the existing account-level `kibk.net` domain: do not add a CNAME or replace the personal homepage. Keep asset URLs relative so `/Silicy/` and stage hash links work.
+The repository workflow `.github/workflows/pages.yml` runs public-only checks, rejects stale generated files and deploys only `website/recap/public/` after pushes to `main`. Pull requests run checks without deployment. This project inherits the existing account-level `kibk.net` domain: do not add a CNAME or replace the personal homepage. Keep asset URLs relative so `/sicily/` and stage hash links work.
 
 Run `make verify` after deployment to compare every public file with the local copy, including the HTML/source checksum, GPX/ZIP and all photos. `reviewed-assets.json` pins the data and photos approved by the independent local privacy review. A failed hash check is not permission to refresh it: rerun the private review first. No originals, private audits or metadata dumps belong in Git or Pages artifacts.
 

@@ -1,23 +1,23 @@
 # Sicily Divide — the journey
 
-**[Explore the interactive recap →](https://kibk.net/Silicy/)**
+**[Explore the interactive recap →](https://kibk.net/sicily/)**
 
 Eight recorded rides from Palermo to Modica, **5–12 October 2026 · 615.26 km · 11,321 m climbing · 26 photos · 7 stays**. Select a stage, browse the pictures, see the per-person hotel costs and read our personal notes. The final two days follow the actual **Regalbuto → Lentini → Modica** route.
 
 ## Download our recorded rides
 
-**[All eight stages + combined track (ZIP)](https://kibk.net/Silicy/sicily-recorded-gpx.zip)** · [Combined GPX](https://kibk.net/Silicy/routes/sicily-complete.gpx)
+**[All eight stages + combined track (ZIP)](https://kibk.net/sicily/sicily-recorded-gpx.zip)** · [Combined GPX](https://kibk.net/sicily/routes/sicily-complete.gpx)
 
 | Stage | Date | Recorded ride | GPX |
 |---|---|---|---|
-| 1 | 5 Oct | Palermo → Gibellina | [Download](https://kibk.net/Silicy/routes/day-01.gpx) |
-| 2 | 6 Oct | Gibellina → Sambuca di Sicilia | [Download](https://kibk.net/Silicy/routes/day-02.gpx) |
-| 3 | 7 Oct | Sambuca di Sicilia → Santo Stefano Quisquina | [Download](https://kibk.net/Silicy/routes/day-03.gpx) |
-| 4 | 8 Oct | Santo Stefano Quisquina → Montedoro | [Download](https://kibk.net/Silicy/routes/day-04.gpx) |
-| 5 | 9 Oct | Montedoro → Enna | [Download](https://kibk.net/Silicy/routes/day-05.gpx) |
-| 6 | 10 Oct | Enna → Regalbuto | [Download](https://kibk.net/Silicy/routes/day-06.gpx) |
-| 7 | 11 Oct | Regalbuto → Lentini | [Download](https://kibk.net/Silicy/routes/day-07.gpx) |
-| 8 | 12 Oct | Lentini → Modica | [Download](https://kibk.net/Silicy/routes/day-08.gpx) |
+| 1 | 5 Oct | Palermo → Gibellina | [Download](https://kibk.net/sicily/routes/day-01.gpx) |
+| 2 | 6 Oct | Gibellina → Sambuca di Sicilia | [Download](https://kibk.net/sicily/routes/day-02.gpx) |
+| 3 | 7 Oct | Sambuca di Sicilia → Santo Stefano Quisquina | [Download](https://kibk.net/sicily/routes/day-03.gpx) |
+| 4 | 8 Oct | Santo Stefano Quisquina → Montedoro | [Download](https://kibk.net/sicily/routes/day-04.gpx) |
+| 5 | 9 Oct | Montedoro → Enna | [Download](https://kibk.net/sicily/routes/day-05.gpx) |
+| 6 | 10 Oct | Enna → Regalbuto | [Download](https://kibk.net/sicily/routes/day-06.gpx) |
+| 7 | 11 Oct | Regalbuto → Lentini | [Download](https://kibk.net/sicily/routes/day-07.gpx) |
+| 8 | 12 Oct | Lentini → Modica | [Download](https://kibk.net/sicily/routes/day-08.gpx) |
 
 The files are also available [in this repository](website/recap/public/routes) and as a [repository ZIP](website/recap/public/sicily-recorded-gpx.zip). If a browser displays GPX as text, use **Save link as…** or download the ZIP.
 
@@ -25,7 +25,7 @@ The files are also available [in this repository](website/recap/public/routes) a
 
 [Trip facts and notes](website/recap/content.md) · [Website maintenance](website/recap/README.md)
 
-GitHub Pages deploys only `website/recap/public/` after checks pass on `main`. The repository keeps its original name, **Silicy**, which is also the case-sensitive website path. No separate repository or new DNS record is needed. The existing planning site is unchanged.
+GitHub Pages deploys only `website/recap/public/` after checks pass on `main`. The existing repository is now named **sicily**, giving the lowercase website path **/sicily/**. Its history and planning files are preserved; no separate repository or DNS change is needed. The existing planning site is unchanged. Old GitHub repository links redirect, but old Pages website links must be updated.
 
 ## Original pre-trip plan — archived
 
@@ -82,7 +82,7 @@ Fausto's planned seven Divide stages total **469.28 km / 9,394 m climbing**. Inc
 
 ## Website and sharing
 
-Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The guide has eight selectable stage cards and seven exact GPX maps/downloads. Only Stage 5, Montedoro → Enna, is still missing.** [Download the seven-file ZIP](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip), or see [individual GPX/course links](ROUTES.md) and [release checks](website/RELEASE.md).
+Website: [sicily.apps.kibk.net](https://sicily.apps.kibk.net); active factual source in [website/guide/content.md](website/guide/content.md). This repository is intentionally the exception to the shared websites directory. **The guide has eight selectable stage cards and seven exact GPX maps/downloads. Only Stage 5, Montedoro → Enna, is still missing.** [Download the seven-file ZIP](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/public/sicily-gpx-available.zip), or see [individual GPX/course links](ROUTES.md) and [release checks](website/RELEASE.md).
 
 **[Along the stage](https://sicily.apps.kibk.net/stages/)** has eight short, scrollable reading pages with 25 place cards: local context, what to notice and Maps links. They work without JavaScript and link back to the selected stage map. Background is linked through place names, with no Sources section; detours and the unverified Stage 5 intermediate stop are explicit. [Research and route-proximity notes](PLACES.md).
 

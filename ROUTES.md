@@ -2,18 +2,18 @@
 
 Supplied by Kirill from Fausto's table on **29 September 2026**. Six Garmin GPX files downloaded and checked **30 September**; Kirill supplied Stage 1 on **3 October**. These are the intended course links, replacing generic official variants. The table's distance/climbing columns retain Fausto's **planned** figures; Stage 2's current export differs and needs his confirmation.
 
-**[Download all seven available GPX files (ZIP)](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/public/sicily-gpx-available.zip).** Only **Stage 5, Montedoro → Enna**, is missing. Kirill still cannot download it as of 3 October; request that GPX directly from Fausto. No guessed track is substituted.
+**[Download all seven available GPX files (ZIP)](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/public/sicily-gpx-available.zip).** Only **Stage 5, Montedoro → Enna**, is missing. Kirill still cannot download it as of 3 October; request that GPX directly from Fausto. No guessed track is substituted.
 
 | Date | Stage | km | Climbing | Garmin course | Exact website track |
 |---|---|---:|---:|---|---|
-| 5 Oct | Palermo → Gibellina | 77 | 1,396 m | [513237884](https://connect.garmin.com/app/course/513237884) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-1.gpx) |
-| 6 Oct | Gibellina → Sambuca di Sicilia | 71.36 | 1,430 m | [510243655](https://connect.garmin.com/app/course/510243655) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-2.gpx); **current Garmin: 65.76 km / 1,334 m** |
-| 7 Oct | Sambuca → Santo Stefano Quisquina | 59.59 | 1,333 m | [510243994](https://connect.garmin.com/app/course/510243994) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-3.gpx) |
-| 8 Oct | Santo Stefano Quisquina → Montedoro | 68.24 | 1,516 m | [510246704](https://connect.garmin.com/app/course/510246704) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-4.gpx) |
+| 5 Oct | Palermo → Gibellina | 77 | 1,396 m | [513237884](https://connect.garmin.com/app/course/513237884) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-1.gpx) |
+| 6 Oct | Gibellina → Sambuca di Sicilia | 71.36 | 1,430 m | [510243655](https://connect.garmin.com/app/course/510243655) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-2.gpx); **current Garmin: 65.76 km / 1,334 m** |
+| 7 Oct | Sambuca → Santo Stefano Quisquina | 59.59 | 1,333 m | [510243994](https://connect.garmin.com/app/course/510243994) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-3.gpx) |
+| 8 Oct | Santo Stefano Quisquina → Montedoro | 68.24 | 1,516 m | [510246704](https://connect.garmin.com/app/course/510246704) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-4.gpx) |
 | 9 Oct | Montedoro → Enna | 69.63 | 1,722 m | [510246958](https://connect.garmin.com/app/course/510246958) | GPX needed; course details unavailable |
-| 10 Oct | Enna → Regalbuto | 63.27 | 1,255 m | [510247190](https://connect.garmin.com/app/course/510247190) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-6.gpx) |
-| 11 Oct | Regalbuto → Catania | 60.19 | 742 m | [510247386](https://connect.garmin.com/app/course/510247386) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-7.gpx) |
-| 12 Oct | Catania → Modica | 112.98 | 1,426 m | [510248637](https://connect.garmin.com/app/course/510248637) | [Download GPX](https://raw.githubusercontent.com/KiBk/Silicy/main/website/guide/routes/stage-8.gpx) |
+| 10 Oct | Enna → Regalbuto | 63.27 | 1,255 m | [510247190](https://connect.garmin.com/app/course/510247190) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-6.gpx) |
+| 11 Oct | Regalbuto → Catania | 60.19 | 742 m | [510247386](https://connect.garmin.com/app/course/510247386) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-7.gpx) |
+| 12 Oct | Catania → Modica | 112.98 | 1,426 m | [510248637](https://connect.garmin.com/app/course/510248637) | [Download GPX](https://raw.githubusercontent.com/KiBk/sicily/main/website/guide/routes/stage-8.gpx) |
 
 **Planned seven Divide stages: 469.28 km / 9,394 m. Planned all eight: 582.26 km / 10,820 m.** Optional warm-up is additional. Substituting the currently exported Stage 2 figures would give **463.68 km / 9,298 m** for the Divide and **576.66 km / 10,724 m** overall; do not silently treat this change as confirmed by Fausto.
 

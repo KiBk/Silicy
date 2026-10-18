@@ -1,5 +1,5 @@
 PORT ?= 8788
-URL ?= https://kibk.net/Silicy
+URL ?= https://kibk.net/sicily
 
 .PHONY: render rebuild-private check check-private serve verify
 
